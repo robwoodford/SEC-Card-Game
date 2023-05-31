@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/just-the-docs/just-the-docs.git
+  revision: 3618253d15d8258b152b311857a3d33203670c0b
+  specs:
+    just-the-docs (0.5.1)
+      jekyll (>= 3.8.5)
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,10 +45,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    just-the-docs (0.5.0)
-      jekyll (>= 3.8.5)
-      jekyll-seo-tag (>= 2.0)
-      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -73,7 +78,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.3)
-  just-the-docs (= 0.5.0)
+  just-the-docs!
 
 BUNDLED WITH
    2.3.9

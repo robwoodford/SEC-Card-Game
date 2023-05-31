@@ -1,5 +1,8 @@
 title: Net Zero Toolkit - Card Game
 description: The website for the card game supplied as part of the Scottish Episcopal Church's Net Zero Toolkit
+baseurl: ""
+url: "https://jeancarletta.github.io/SEC-Card-Game"
+repository: JeanCarletta/SEC-Card-Game # for github-metadata
 theme: just-the-docs
 logo: ./graphics/PEG_logo.png
 
