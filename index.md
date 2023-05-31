@@ -22,10 +22,12 @@ Leave time at the end of the session to think about what happens next.  For acti
  
 Some groups prefer to record audio snippets with what they've agreed about each card and have someone fill out the planning template afterwards.
 
-It's good to give people a free choice of cards when they explore the set, but we recommend you prioritise acting on cards by the card groups they are in:
+It's good to give people a free choice of cards when they explore the set, but the cards come in groups that have a natural order to them:
 
 - Group 1: Basic Steps
 - Group 2: Reduce Energy Demand, part of Energy Efficiency
 - Group 3: Address Heat Loss, part of Energy Efficiency
 - Group 4: Decarbonise, part of Clean Energy
 - Group 5: Generate Energy, part of Clean Energy
+
+Usually taking actions in the order the groups appear leads to the fastest and largest carbon reductions.  
