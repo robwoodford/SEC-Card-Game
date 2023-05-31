@@ -30,4 +30,4 @@ It's good to give people a free choice of cards when they explore the set, but t
 - Group 4: Decarbonise, part of Clean Energy
 - Group 5: Generate Energy, part of Clean Energy
 
-Usually taking actions in the order the groups appear leads to the fastest and largest carbon reductions.  
+Usually taking actions in the order the groups appear leads to the fastest and largest carbon reductions, but some of the cards are really about things that help if you have space heating - the more you rely on a localised heating strategy for your thermal comfort, the less important they are for you.  We mark these cards with a space icon so you will know which ones they are.
