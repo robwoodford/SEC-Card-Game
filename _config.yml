@@ -7,8 +7,8 @@ logo: ./graphics/PEG_logo.png
 #footer_content: "Created 2023 by HeatHack in collaboration with the Provincial Environment Group.  :TODO: insert license with link, try to get logo in" 
 # url: https://just-the-docs.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs
   
 
 
