@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1> {{ page.title }} </h1>
+    
+    {{ content }}
+
+    {% if page.category %}
+    <em>Part of the group: {{ page.category }}</em> 
+    {% endif %}
+
+  </body>
+</html>

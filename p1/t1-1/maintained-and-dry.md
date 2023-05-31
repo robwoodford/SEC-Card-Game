@@ -1,0 +1,12 @@
+---
+layout: card
+title: Maintain buildings and keep them dry
+quote: It wasn't raining when Noah built the ark.
+quote-attribution: traditional gospel song
+parent: T1-1
+grand_parent: Petal 1
+---
+
+If a building falls into disrepair, this has a huge carbon cost.  Our most important action is following the advice in your quinquennial survey.   A sound roof with adequate rainwater clearance will also make the building stay warm more easily and feel more comfortable. Ventilation is also important to keep the building dry even in traditional buildings, especially to vent moist air after people have been in. Don’t be tempted to reduce it without taking advice. Ensure work is carried out using breathable materials and maintain your ventilation features, for instance, by clearing leaves from low level air intakes.
+
+- [Quinquennial Surveys](https://www.scotland.anglican.org/vestry-resources/buildings/quinquennial-surveys/)
