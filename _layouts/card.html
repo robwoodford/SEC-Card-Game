@@ -6,17 +6,36 @@ layout: default
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <style>
+  
+      div.card {
+        outline: 2px solid #445c4c;
+      }
+
+      p {
+  margin: 10px 10px 10px 10px;
+      }
+      div.quote {
+        background-color:#445c4c;
+        text-align:right;
+        color: White;
+      }
+
+      </style>
   </head>
   <body>
-    <h1> {{ page.title }} </h1>
-
-    <div style="background-color:DarkGreen;text-align:right;"><figure></figure>
-      <blockquote cite="https://www.huxley.net/bnw/four.html">
-          <p style="color:White;">{{ page.quote }} <br/> &mdash; {{ page.quote-attribution }}</p>
-      </blockquote>
-  </figure></div>
+    <div class="card">
+      <h1> {{ page.title }} </h1>
+    
+      {{ content }}
+    
+      <div class="quote">
+        <blockquote>
+          <p>{{ page.quote }} <br/> &mdash; {{ page.quote-attribution }}</p>
+        </blockquote>
+      </div>
    
-    {{ content }}
+    </div>
 
   </body>
   <!-- <footer> "{{ page.quote }}" <br/> &mdash; {{ page.quote-attribution }} </footer> -->

@@ -1,0 +1,10 @@
+---
+layout: petal
+title: $title
+subtitle: $subtitle
+tagline: $tagline
+has_children: true
+has_toc: true
+graphic: $graphic_filename
+nav_order: $nav_order
+---

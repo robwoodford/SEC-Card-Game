@@ -1,0 +1,12 @@
+---
+layout: card
+title: $title
+quote: $quote
+quote-attribution: $attribution
+parent: $task
+grand_parent: Petal $petal_number
+category: $group
+---
+
+$content
+

@@ -7,10 +7,28 @@ layout: default
     <meta charset="utf-8">
     <title>{{ page.title }} </title>
   </head>
+ 
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 100px auto;
+      padding: 10px;
+    }
+    .grid-item {
+      padding: 20px;
+      text-align: left;
+    }
+  </style>
   <body>
     <h1> {{ page.subtitle }} </h1>
-    <h2> {{ page.tagline | downcase | capitalize }} </h2>
-    <img alt="" src={{ page.graphic }}>
-    {{ content }}
+    
+    <div class="grid-container">
+      <div class="grid-item" height="40px">
+        <img class="logo" alt="" src={{ page.graphic }}>
+      </div>
+      <div class="grid-item">
+        {{ page.tagline | downcase | capitalize }}
+      </div>
+    </div>
   </body>
 </html>

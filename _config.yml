@@ -31,3 +31,12 @@ callouts:
   warning:
     title: Warning
     color: red
+
+
+exclude:
+  - aux
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - 00notes.txt
+  
