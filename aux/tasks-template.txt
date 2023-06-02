@@ -2,7 +2,7 @@
 layout: task
 title: $title
 nav_order: $nav_order
-parent: Petal $petal_number
+parent: $petal_title
 category: $group
 has_children: true
 has_toc: true

@@ -3,8 +3,8 @@ layout: card
 title: $title
 quote: $quote
 quote-attribution: $attribution
-parent: $task
-grand_parent: Petal $petal_number
+parent: $task_name
+grand_parent: $petal_name
 category: $group
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: petal
 title: $title
-subtitle: $subtitle
 tagline: $tagline
 has_children: true
 has_toc: true
