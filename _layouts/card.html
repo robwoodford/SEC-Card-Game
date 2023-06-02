@@ -12,13 +12,23 @@ layout: default
         outline: 2px solid #445c4c;
       }
 
-      p {
-  margin: 10px 10px 10px 10px;
+      div.card h1 {
+        padding: 5px;
+        text-align: center;
       }
+
+      div.card p {
+        padding: 10px; 
+      }
+
       div.quote {
         background-color:#445c4c;
         text-align:right;
         color: White;
+      }
+
+      blockquote {
+        margin: -3px;
       }
 
       </style>
@@ -27,7 +37,7 @@ layout: default
     <div class="card">
       <h1> {{ page.title }} </h1>
     
-      {{ content }}
+      {{ content }} <!-- | replace "<br>", "</p><p>" can't get to work!-->
     
       <div class="quote">
         <blockquote>

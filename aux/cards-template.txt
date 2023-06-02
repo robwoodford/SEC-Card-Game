@@ -8,5 +8,5 @@ grand_parent: Petal $petal_number
 category: $group
 ---
 
-$content
+$content 
 
