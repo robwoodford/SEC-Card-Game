@@ -1,18 +1,25 @@
-title: Net Zero Toolkit - Card Game
-description: The website for the card game supplied as part of the Scottish Episcopal Church's Net Zero Toolkit
+title: Net Zero Cards
+description: The website for the cards that accompany the Scottish Episcopal Church's Net Zero Toolkit
 baseurl: ""
 url: "https://jeancarletta.github.io/SEC-Card-Game"
 repository: JeanCarletta/SEC-Card-Game # for github-metadata
 theme: just-the-docs
-logo: ./graphics/PEG_logo.png
+logo: ./graphics/site-logo.png
 
 
 #footer_content: "Created 2023 by HeatHack in collaboration with the Provincial Environment Group.  :TODO: insert license with link, try to get logo in" 
 # url: https://just-the-docs.github.io
 
-#aux_links:
-#  Template Repository: https://github.com/just-the-docs/just-the-docs
-  
+aux_links: none
+# this appears to be a way to not show the Just the Docs link.  There's still a small link there that
+# goes to home page?
+# usually syntax is Link Text: link_url
+
+nav_external_links: none
+# this appears to be a way to not show the Just the Docs link.  There's still a small link there that
+# goes to home page?  Usual syntax is like this:
+#  - title: Link Text
+#    url: URL
 
 
 callouts_level: quiet # or loud
