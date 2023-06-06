@@ -2,8 +2,9 @@
 layout: petal
 title: $title
 tagline: $tagline
+nav_order: $nav_order
 has_children: true
 has_toc: true
 graphic: $graphic_filename
-nav_order: $nav_order
+number: $number
 ---

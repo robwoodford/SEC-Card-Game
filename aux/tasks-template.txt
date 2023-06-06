@@ -3,7 +3,7 @@ layout: task
 title: $title
 nav_order: $nav_order
 parent: $petal_title
-category: $group
+category: $step
 has_children: true
 has_toc: true
 ---

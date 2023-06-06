@@ -68,6 +68,8 @@ template = open('cards-template.txt', 'r')
 src = Template(template.read())
 template.close()
 
+print(df.columns)
+
 for i in range(0,len(df)):
     result = src.substitute(df.iloc[i])
     # filenames are arbitrary, in file order from the csv.

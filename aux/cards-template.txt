@@ -5,8 +5,21 @@ quote: $quote
 quote-attribution: $attribution
 parent: $task_name
 grand_parent: $petal_name
-category: $group
+category: $step_number
+card_icon: $card_icon
+space: $space
+carbon_stars: $web_carbon
+cost: $cost_number
+easy_wins: $easy_wins
+magic_wand: $magic_wand
+step_number: $step_number
+cardpetal_tag: $cardpetal_tag
+cardpetal_colour: $cardpetal_colour
+card_icon_html: $card_icon_html
 ---
+
+$card_icon_html
+<h1>$title</h1>
 
 $content 
 

@@ -1,15 +1,27 @@
 ---
 layout: default
 ---
+<!-- was using #445c4c; -->
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <style>
-  
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: 100px auto;
+        padding: 10px;
+      }
+
+      .grid-item {
+        padding: 20px;
+        text-align: left;
+      }
+
       div.card {
-        outline: 2px solid #445c4c;
+        outline: 2px solid #006400; 
       }
 
       div.card h1 {
@@ -22,7 +34,7 @@ layout: default
       }
 
       div.quote {
-        background-color:#445c4c;
+        background-color:#006400;
         text-align:right;
         color: White;
       }
@@ -31,14 +43,46 @@ layout: default
         margin: -3px;
       }
 
+      img.card-icon {
+        height: 100px;
+        width:  100px;
+        padding-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      img.group-icon {
+        height: 90px;
+        width:  96px;
+      }
+
+      img.tag-icon {
+        height: 40px;
+        width:  40px;
+      }
       </style>
   </head>
   <body>
+    <!-- can't for the life of me figure out how to get the image to render with what documentation says is the correct liquid syntax -->
+
+    
+    <!-- <img class="kk" alt=" " src=" {{ jj }} "> -->
+  
+    <!-- workaround - put card icon, title, and content (100 words) in the markdown rather than specifying how to render here -->
+     <!--  <h1> {{ page.title }} </h1>  This should be here, but workaround means we have to stick it in the card markdown -->
     <div class="card">
-      <h1> {{ page.title }} </h1>
-    
       {{ content }} 
-    
+    <!-- quick test, still need to do sizing and padding
+      <div class="grid-container">
+        <div class="grid-item" height="40px">
+          <img class="group-icon" alt="" src="/graphics/groups/reduce.svg"> 
+        </div>
+        <div class="grid-item">
+          <img class="tag-icon" alt="" src="/graphics/tags/magic_wand.svg">
+        </div>
+      </div>
+    -->
       <div class="quote">
         <blockquote>
           <p>{{ page.quote }} <br/> &mdash; {{ page.quote-attribution }}</p>
