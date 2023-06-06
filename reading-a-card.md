@@ -2,16 +2,7 @@
 title: Reading a Card
 layout: home
 nav_order: 2
-
----
-
-<!--  didn't work, try it later.
-galleries:
-    1:
-        - { url: 'graphics/annotated-card-front.jpg', alt: 'the front of a net zero card showing that the title is in the centre with a unique icon for that card, the petal category shown at the top, and the step number shown at at bottom'}
-        - { url: 'graphics/annotated-card-back.jpg', alt: 'the back of a net zero card showing that the relative cost at top left, the carbon savings at top right, the card title and icon, a 100 word summary of the card action, and a brief motivating quote'}
---> >
-<!-- {% include gallery.html  gallery=1 %} -->
+--- 
 
 Each of our cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
 
