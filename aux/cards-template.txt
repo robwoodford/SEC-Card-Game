@@ -5,6 +5,7 @@ quote: $quote
 quote-attribution: $attribution
 parent: $task_name
 grand_parent: $petal_name
+nav_order: $nav_order
 category: $step_number
 card_icon: $card_icon
 space: $space
