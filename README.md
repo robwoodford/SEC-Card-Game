@@ -36,6 +36,8 @@ ignore pnan errors from python.
 
 - consider placing some? all? css in a separate css file for inclusion in the css directory
 
-- remove liquid from the processing for the cards - there appears to be a bug that affects image rendering, but create a minimal bug report and ask on Stack Overflow first
+- remove liquid from the processing for the cards and just generate raw html? Can't get images to render and it looks like a problem with quote escaping; create a minimal bug report and ask on Stack Overflow first.  But couldn't even get cost and carbon stars text to go on the cards.  Maybe when we rationalise the build it'll be obvious what I'm doing wrong.  
 
 - either also generate stuff that can be cut and paste into the accompanying Word document to keep them in sync or agree a different way of producing that material.
+
+- the root directory appears to be different on the local build than on github.io, so the graphics don't appear during development.  That's a pain, try to find a workaround.
