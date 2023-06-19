@@ -7,13 +7,13 @@ parent: How to Use the Cards
 
 Each of our cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
 
-<img src="graphics/annotated-card-front.jpg" alt="the front of a net zero card showing that the title is in the centre with a unique icon for that card, the petal category shown at the top, and the step number shown at at bottome" title="annotated card front" width="750px"/>
+<img src='{{ "graphics/annotated-card-front.jpg" | relative_url }}' alt="the front of a net zero card showing that the title is in the centre with a unique icon for that card, the petal category shown at the top, and the step number shown at at bottom" title="annotated card front" width="750px"/>
 
 <!-- width appears not to be working, fix later -->
 
 The front of the card has the action title with a unique icon for that card, and also shows the "petal" category for the card as given in the Net Zero Toolkit.  There's a good order for considering the groups of cards associated with the first two petals, **Energy Efficiency Improvements** and **Clean Energy**, so for these we also have a step number at the bottom, from 1 to 5.  Usually taking actions by step order leads to a good balance of fast and large carbon reductions.
 
-<img src="graphics/annotated-card-back.jpg" alt="the back of a net zero card showing that the relative cost at top left, the carbon savings at top right, the card title and icon, a 100 word summary of the card action, and a brief motivating quote" width="1000"/>
+<img src='{{ "graphics/annotated-card-back.jpg" | relative_url }}' alt="the back of a net zero card showing that the relative cost at top left, the carbon savings at top right, the card title and icon, a 100 word summary of the card action, and a brief motivating quote" width="1000"/>
 
 The back of the card adds a 100 word summary of the card action with a brief motivating quote, and then shows two further things:  the relative cost and the potential carbon savings.
 

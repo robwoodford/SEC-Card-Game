@@ -14,7 +14,7 @@ Some cards are really important for heating the air and some are only about heat
 <div class="list-grid-container">
     <div class= "list-row">
         <div class="list-icon">
-            <img class="toolkit-icon" alt=" Heat the Air " src="/graphics/icons/heatair.svg">
+            <img class="toolkit-icon" alt=" Heat the Air " src='{{ "/graphics/icons/heatair.svg" | relative_url }}'>
         </div>
         <div class="list-description">
             Heat the Air &mdash; also called "space heating"
@@ -24,7 +24,7 @@ Some cards are really important for heating the air and some are only about heat
    
     <div class= "list-row">
         <div class="list-icon">
-            <img class="toolkit-icon" alt=" Heat the Air " src="/graphics/icons/heatpeople.svg">
+            <img class="toolkit-icon" alt=" Heat the People " src='{{ "/graphics/icons/heatpeople.svg" | relative_url }}'>
         </div>
         <div class="list-description">
             Heat the People &mdash; also called "localised heating"
@@ -39,7 +39,7 @@ Some cards are really important for heating the air and some are only about heat
       <ul>
       
           {% for card in cards %}
-          <li><a href="{{ card.url }}">{{ card.title }} </a></li>
+          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
           {% endfor %}
       </ul>
 </div>
@@ -50,7 +50,7 @@ Some cards are really important for heating the air and some are only about heat
       <ul>
       
           {% for card in cards %}
-          <li><a href="{{ card.url }}">{{ card.title }} </a></li>
+          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
           {% endfor %}
       </ul>
 </div>

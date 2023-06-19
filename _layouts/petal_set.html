@@ -12,11 +12,11 @@ layout: default
 
         <div class="list-grid-container">
             {% for petal in site.petals %}
-            <div class="wrap" onclick='location.href ="{{petal.url }}";'>
+            <div class="wrap" onclick='location.href ="{{ petal.url | relative_url }}";'>
                 <div class="list-row">
                     
                    <div class="list-icon">
-                        <img class='toolkit-icon' alt-text=' ' src={{ root_url | append: "/graphics/icons/" | append: petal.icon_shortcode | append: ".svg" }} >
+                        <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: petal.icon_shortcode | append: ".svg" | relative_url }}' >
                     </div>
                     <div class="list-description">
                          {{  petal.title | append: "<br/>" | append: petal.tagline }} 
