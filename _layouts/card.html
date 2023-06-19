@@ -25,7 +25,8 @@ layout: default
           {{ stars }}
         </div>
       </div>
-      <img class='card-icon' alt-text=' ' src={{ root_url | append: "/graphics/icons/" | append: page.icon_shortcode | append: ".svg" }} >
+  
+      <img class='card-icon' alt-text=' ' src={{ "/graphics/icons/" | relative_url | append: page.icon_shortcode | append: ".svg" }} >
 
       <h1> {{ page.title }} </h1>
       {{ page.content }} 
