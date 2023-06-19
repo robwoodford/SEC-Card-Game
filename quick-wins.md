@@ -21,7 +21,7 @@ The selection of quick wins is still under review.
       <ul>
       
           {% for card in cards %}
-          <li><a href="{{ card.url }}">{{ card.title }} </a></li>
+          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
           {% endfor %}
       </ul>
       </div>

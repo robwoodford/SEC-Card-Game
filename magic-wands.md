@@ -15,7 +15,7 @@ If you feel stuck, it might help to look back at the magic wand cards.  These ar
       <ul>
       
           {% for card in cards %}
-          <li><a href="{{ card.url }}">{{ card.title }} </a></li>
+          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
           {% endfor %}
       </ul>
 </div>
