@@ -6,4 +6,5 @@
 
 
 </style> -->
-<link rel="stylesheet" href="/css/main.css"/>
+{% assign href = "/css/main.css" | relative_url %}
+<link rel="stylesheet" href={{href}}>
