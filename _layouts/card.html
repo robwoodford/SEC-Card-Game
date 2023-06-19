@@ -26,7 +26,7 @@ layout: default
         </div>
       </div>
   
-      <img class='card-icon' alt-text=' ' src={{ "/graphics/icons/" | relative_url | append: page.icon_shortcode | append: ".svg" }} >
+      <img class='card-icon' alt-text=' ' src={{ "/graphics/icons/" |  append: page.icon_shortcode | append: ".svg" | relative_url }} >
 
       <h1> {{ page.title }} </h1>
       {{ page.content }} 
@@ -37,22 +37,26 @@ layout: default
       <div class="icons-grid-item" height="40px">
         {% if page.magic_wand %}
           {% assign tag = site.tags| where: "title", "Magic Wands" | first %} 
-        <img class="toolkit-icon" alt="{{ tag.icon_alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+          {% assign src = "/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url %}
+        <img class="toolkit-icon" alt="{{ tag.icon_alt_text }}" src={{src}}>
         {% endif %}
       </div>
       <div class="icons-grid-item">
         {% if page.easy_wins %}
         {% assign tag = site.tags| where: "title", "Quick Wins" | first %} 
-      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+        {% assign src = "/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url %}
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src={{src}}>
       {% endif %}
       </div>
       <div class="icons-grid-item">
         {% if page.heat_people %}
         {% assign tag = site.tags| where: "title", "Heat the People" | first %} 
-      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+        {% assign src = "/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url %}
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="{{src}}>
       {% elsif  page.heat_air %}
       {% assign tag = site.tags| where: "title", "Heat the Air" | first %} 
-      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+      {% assign src = "/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url %}
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src={{src}}>
       {% endif %}
       </div>
     </div> 

@@ -5,30 +5,30 @@
     -->
     {% assign crumbs = page.title | append: "/" %}
     <!-- need a unique separator to split on that isn't slash  - use ? -->
-    {% assign urls = page.url | append: "?" %}  
+    {% assign urls = page.url | relative_url | append: "?" %}  
     <!-- We don't want everything to be hierarchical structure on the sidebar, so we have a separate toolkit navigation that covers cards, tasks, steps, and petals. --> 
     <!-- it doesn't use parents and grand_parents in the usual way.  -->
     {% if page.task %}
       {% assign crumbs = page.task | append: "/" | append: crumbs %}
       {% assign task = site.tasks | where: "title", page.task | first %} 
-      {% assign urls = task.url | append: "?" | append: urls %}
+      {% assign urls = task.url | relative_url | append: "?" | append: urls %}
     {% endif %}
     {% if page.step %}
       {% assign crumbs = page.step | append: "/" | append: crumbs %}
       {% assign step = site.steps | where: "title", page.step | first %} 
-      {% assign urls = step.url | append: "?" | append: urls %}
+      {% assign urls = step.url | relative_url | append: "?" | append: urls %}
     {% endif %} 
     {% if page.petal %}
       {% assign crumbs = page.petal | append: "/" | append: crumbs %}
       {% assign petal = site.petals | where: "title", page.petal | first %} 
-      {% assign urls = petal.url | append: "?" | append: urls %}
+      {% assign urls = petal.url | relative_url | append: "?" | append: urls %}
     {% endif %}
 
     <!-- pages without petals/steps/tasks might have one level of parents, shove breadcrumbs up for them -->
     {% if page.parent %}
       {% assign crumbs = page.parent | append: "/" | append: crumbs %}
       {% assign parent = site.pages | where: "title", page.parent | first %} 
-      {% assign urls = parent.url | append: "?" | append: urls %}
+      {% assign urls = parent.url | relative_url | append: "?" | append: urls %}
     {% endif %}
 
     {% assign crumbs = crumbs | split: "/" %}
