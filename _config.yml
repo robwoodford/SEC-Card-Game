@@ -1,6 +1,6 @@
 title: Net Zero Cards
 description: The website for the cards that accompany the Scottish Episcopal Church's Net Zero Toolkit
-baseurl: "https://jeancarletta.github.io/SEC-Card-Game"
+baseurl: "."
 url: "https://jeancarletta.github.io/SEC-Card-Game"
 repository: JeanCarletta/SEC-Card-Game # for github-metadata
 theme: just-the-docs
