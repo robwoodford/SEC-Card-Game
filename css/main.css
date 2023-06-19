@@ -1,0 +1,157 @@
+/* to omit theme branding */
+
+.grid-container.aux-nav-list {
+    visibility: hidden;
+    display: none;
+}
+li.nav-list-item.external {
+    visibility: hidden;
+    display: none;
+}
+
+#edit-this-page {
+  visibility: hidden;
+  display: none;
+}
+
+/* can't make their breadcrumbs work, so don't display them. */
+
+nav {display: none;}
+
+/* css for listing petals, steps, and tasks  */
+
+.wrap{
+  cursor: pointer;
+}
+
+div.list-grid-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+div.list-row {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px auto;
+    outline: 2px solid;
+    text-align: left;
+    align-items: center;
+  }
+
+  div.list-icon {
+    display: flex;
+    padding: 10px;
+  }
+
+  div.description {
+    display: flex;
+    padding: 10px;
+  }
+
+/* css for card pages */
+
+hr {
+  margin-bottom: 10px;
+}
+
+.cost-benefit-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows:20px;
+  gap: 20px;
+  
+}
+
+.cost-benefit-grid-item-left {
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+.cost-benefit-grid-item-right {
+  align-items: center;
+  text-align: right;
+  font-size: 20px;
+  padding-right: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows:100px;
+    gap: 20px;
+    outline: 2px solid #006400; 
+  }
+
+.grid-item {
+    text-align: left;
+    align-items: center;
+  }
+
+  div.card {
+    outline: 2px solid #006400; 
+  }
+
+  div.card h1 {
+    padding: 5px;
+    text-align: center;
+  }
+
+  div.card p {
+    padding: 10px; 
+  }
+
+  div.quote {
+    /* background-color: #006400; */
+    text-align:right;
+   /* color: White; */
+  }
+
+  #div.blockquote > p {
+    margin-top: -1em;
+    margin-bottom: -1em;
+    padding: 0px;
+    text-align:right;
+}
+  blockquote {
+    /* margin: -3px; */
+    align:right;
+    text-align:right;
+  }
+
+  img.card-icon {
+    height: 100px;
+    width:  100px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.toolkit-icon {
+    /* background-color: white;*/
+    border-style: none;
+    display: flex;
+    height: 80px;
+    width: 80px;
+  }
+
+
+  img.tag-icon {
+    height: 40px;
+    width:  40px;
+  }
+
+  div.icons-grid-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+  }
+
+div.icons-grid-item {
+    display: flex;
+  }
