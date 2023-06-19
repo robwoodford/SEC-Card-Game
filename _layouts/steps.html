@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.number }} &mdash; {{ page.title }}</title>
+  </head>
+  <body>
+   <!-- we have site.petals here.
+    {% for petal in site.petals %}
+      {{ petal.title }}
+    {% endfor %}
+   -->
+    {% include breadcrumbs.html %}
+    <h1> {{ page.number }} &mdash; {{ page.title }}</h1>
+    
+    {{ page.tagline }}
+
+    <!-- <div class="grid-container">
+        <div class="grid-item" height="40px">
+          <img class="logo" alt=" " src="/graphics/icons/{{ page.icon_shortcode }}.svg">
+        </div>
+        <div class="grid-item">
+          {{ page.tagline | downcase | capitalize }}
+        </div>
+      </div>
+    -->
+
+    <div>
+        Tasks included in this step:
+
+        {% assign tasks = site.tasks | where: "step_number",page.number %} 
+        <ul>
+        
+            {% for task in tasks %}
+            <li><a href="{{ task.url }}">{{ task.number }} &mdash; {{ task.title }} </a></li>
+            {% endfor %}
+        </ul>
+    </div>
+
+  </body>
+</html>

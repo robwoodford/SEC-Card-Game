@@ -1,0 +1,10 @@
+---
+layout: tags
+title: $title
+nav_order: $nav_order
+tagline: $tagline
+icon_shortcode: $icon_shortcode
+icon_alt_text: $icon_alt_text
+---
+
+

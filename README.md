@@ -40,4 +40,4 @@ ignore pnan errors from python.
 
 - either also generate stuff that can be cut and paste into the accompanying Word document to keep them in sync or agree a different way of producing that material.
 
-- the root directory appears to be different on the local build than on github.io, so the graphics don't appear during development.  That's a pain, try to find a workaround.
+- the root directory appears to be different on the local build than on github.io, so the graphics don't appear during development.  To fix this, use e.g. href="{{ root_url }}/graphics/card_icons/maintenancerecords.svg"

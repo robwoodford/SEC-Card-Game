@@ -7,28 +7,30 @@ layout: default
     <meta charset="utf-8">
     <title> {{ petal.number }} {{ page.title }} </title>
   </head>
- 
-  <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: 100px auto;
-      padding: 10px;
-    }
-    .grid-item {
-      padding: 20px;
-      text-align: left;
-    }
-  </style>
+
   <body>
+    {% include breadcrumbs.html %}
     <h1> {{ page.title }} </h1>
     
+  
     <div class="grid-container">
       <div class="grid-item" height="40px">
-        <img class="logo" alt="" src={{ page.graphic }}>
+        {% assign icon_path = site.tasks | where: "petal_number",page.number %} 
+        <img class="logo" alt=" " src="/graphics/icons/{{ page.icon_shortcode }}.svg">
       </div>
-      <div class="grid-item">
+      <div class="grid-item" >
         {{ page.tagline | downcase | capitalize }}
       </div>
+    </div>
+    <div>
+    Tasks included in this petal:
+    {% assign tasks = site.tasks | where: "petal_number",page.number %} 
+    <ul>
+    
+        {% for task in tasks %}
+        <li><a href="{{ task.url }}">{{ task.number }} &mdash; {{ task.title }} </a></li>
+        {% endfor %}
+    </ul>
     </div>
   </body>
 </html>

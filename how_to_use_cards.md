@@ -1,12 +1,10 @@
 ---
 title: How to Use the Cards
-layout: home
+layout: plain
 nav_order: 2       
 has_children: true
 ---
 
-
-# How to Use the Cards
 
 The cards are best explored in groups of six to eight people.  We suggest you spread the cards on the table and go around the room, allowing people to choose a card in turn and placing them into three areas:
 

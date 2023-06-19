@@ -6,21 +6,57 @@ repository: JeanCarletta/SEC-Card-Game # for github-metadata
 theme: just-the-docs
 logo: ./graphics/site-logo.png
 
-
-#footer_content: "Created 2023 by HeatHack in collaboration with the Provincial Environment Group.  :TODO: insert license with link, try to get logo in" 
-# url: https://just-the-docs.github.io
-
 aux_links: none
-# this appears to be a way to not show the Just the Docs link.  There's still a small link there that
-# goes to home page?
-# usually syntax is Link Text: link_url
-
 nav_external_links: none
-# this appears to be a way to not show the Just the Docs link.  There's still a small link there that
-# goes to home page?  Usual syntax is like this:
-#  - title: Link Text
-#    url: URL
 
+collections_dir: collections
+
+collections:
+  petals:
+    output: true
+  tasks:
+    output: true
+  cards:
+    output: true
+  steps:
+    output: true
+  tags:
+    output: false
+
+
+# The navigation for each collection is a separate name space for page titles: 
+# a page in one collection cannot be a child of a page in a different collection, or of a normal page.
+## so we can't use the TOC to get stuff, but can we render an appropriate task list for a petal
+## by other means?
+
+
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      # nav_exclude: true
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      # nav_fold: true  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      # search_exclude: true
+
+just_the_docs:
+  collections:
+    petals:
+      name: Petals
+      nav_exclude: false
+    tasks:
+      name: Tasks
+      nav_exclude: false
+    cards:
+      name: Cards
+      nav_exclude: false
+    steps:
+      name: Steps
+      nav_exclude: true
+    tags:
+      name: Tags
+      nav_exclude: true
 
 callouts_level: quiet # or loud
 callouts:
@@ -46,4 +82,5 @@ exclude:
   - Gemfile.lock
   - README.md
   - 00notes.txt
-  
+  - junk 
+  - _data-junk  

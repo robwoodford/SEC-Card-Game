@@ -1,13 +1,27 @@
 ---
 title: Quick Wins
-layout: home
+layout: plain
 nav_order: 2.3
 parent: How to Use the Cards
 --- 
 
+<img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/quick.svg">
+
 There are a number of actions that we consider to be quick wins - things that might be relatively easy to do and immediately reduce your energy bill.  
 
-<img src="graphics/IsometricChurch-QuickWins2-01-01.jpg" alt="a cutaway of a church showing quick wins for cards like update your lighting, put countdown timer on some electrics, get a smart meter, and draught-proof the building" title="annotated card front" width="750px"/>
+<img src="graphics/IsometricChurch-QuickWins2-01-01.jpg" alt=" " title="annotated card front" width="750px"/>
 
 {: .note }
-The selection of quick wins is still under review. We intend to indicate quick wins on this website with a special tag so you can find them quickly.
+The selection of quick wins is still under review.
+
+
+<div>
+      Quick win cards:
+      {% assign cards = site.cards | where: "easy_wins",1 %} 
+      <ul>
+      
+          {% for card in cards %}
+          <li><a href="{{ card.url }}">{{ card.title }} </a></li>
+          {% endfor %}
+      </ul>
+      </div>

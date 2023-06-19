@@ -1,0 +1,19 @@
+<div class="nav-grid-container" style="font-size: x-small;">
+    <a href={{ petal.url }}>
+      <div class="nav-grid-container-inner" style="font-size: x-small;">
+        <div class="nav-grid-item"> <p> {{ petal.title }} </p> </div>
+        <div class="nav-grid-item"> 
+          <img alt-text=' ' src={{ root_url | append: "/graphics/petals/" | append: petal.icon_shortcode | append: "-160x160.png" }} >
+        </div>
+      </div>
+    </a>
+    <div class="nav-grid-item"><p>/</p></div>
+    <a href={{ task.url }}>
+      <div class="nav-grid-container-inner" style="font-size: x-small;">
+        <div class="nav-grid-item"> <p> {{ task.title }} </p> </div>
+        <div class="nav-grid-item">  
+          <p style={{ "font-size:x-large;background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>{{ task.number }} </p>
+        </div>
+      </div>
+    </a>
+  </div>

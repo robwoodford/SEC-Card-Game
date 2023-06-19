@@ -1,12 +1,14 @@
 ---
 layout: task
-title: $title
+number: $number
 nav_order: $nav_order
-parent: $petal_title
-category: $step
-has_children: true
-has_toc: true
+title: $title
+petal_number: $petal_number
+step_number: $step_number
+petal: $petal
+step: $step
+has_children: false
+has_toc: false
 ---
 
 $description
-

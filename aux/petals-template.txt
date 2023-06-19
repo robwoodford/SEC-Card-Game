@@ -1,10 +1,12 @@
 ---
 layout: petal
+number: $number
 title: $title
 tagline: $tagline
 nav_order: $nav_order
-has_children: true
-has_toc: true
-graphic: $graphic_filename
-number: $number
+icon_shortcode: $icon_shortcode
+colour: $colour
+text_colour: $text_colour
+has_children: false
+has_toc: false
 ---

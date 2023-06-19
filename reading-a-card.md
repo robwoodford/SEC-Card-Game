@@ -1,6 +1,6 @@
 ---
 title: Reading a Card
-layout: home
+layout: plain
 nav_order: 2.1
 parent: How to Use the Cards
 --- 

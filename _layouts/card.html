@@ -1,98 +1,66 @@
 ---
 layout: default
 ---
-<!-- was using #445c4c; -->
-<!doctype html>
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <style>
-      
-      .grid-container {
-        display: grid;
-        grid-template-columns: 100px auto;
-        padding: 10px;
-      }
-
-      .grid-item {
-        padding: 20px;
-        text-align: left;
-      }
-
-      div.card {
-        outline: 2px solid #006400; 
-      }
-
-      div.card h1 {
-        padding: 5px;
-        text-align: center;
-      }
-
-      div.card p {
-        padding: 10px; 
-      }
-
-      div.quote {
-        background-color:#006400;
-        text-align:right;
-        color: White;
-      }
-
-      blockquote {
-        margin: -3px;
-      }
-
-      img.card-icon {
-        height: 100px;
-        width:  100px;
-        padding-top: 10px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      img.group-icon {
-        height: 90px;
-        width:  96px;
-      }
-
-      img.tag-icon {
-        height: 40px;
-        width:  40px;
-      }
-      </style>
-  </head>
+  <head> {% include head_custom.html %} </head>
   <body>
-    <!-- can't for the life of me figure out how to get the image to render with what documentation says is the correct liquid syntax -->
-
-    
-    <!-- <img class="kk" alt=" " src=" {{ jj }} "> -->
-  
-    <!-- workaround - put card icon, title, and content (100 words) in the markdown rather than specifying how to render here -->
-     <!--  <h1> {{ page.title }} </h1>  This should be here, but workaround means we have to stick it in the card markdown -->
+    {% include breadcrumbs.html %}
+    {% assign task = site.tasks | where: "number", page.task_number | first %} 
+    {% assign petal = site.petals| where: "number", task.petal_number | first %} 
     <div class="card">
-      {{ content }} 
-    <!-- quick test, still need to do sizing and padding
-      <div class="grid-container">
-        <div class="grid-item" height="40px">
-          <img class="group-icon" alt="" src="/graphics/groups/reduce.svg"> 
+      <hr style={{ "background-color:#" | append: petal.colour |  append: ";border:none;height:40px;" }}/> 
+      <div class="cost-benefit-grid-container">
+        <div class="cost-benefit-grid-item-left">
+          {{ page.cost }}
         </div>
-        <div class="grid-item">
-          <img class="tag-icon" alt="" src="/graphics/tags/magic_wand.svg">
+        
+        <div class="cost-benefit-grid-item-right">
+          {% if page.carbon_stars %}
+            {% assign stars = "" %}
+            {% for i in (1..page.carbon_stars) %}
+              {% assign stars = stars | append: "*" %}
+            {% endfor %}
+          {% endif %}
+          {{ stars }}
         </div>
       </div>
-    -->
-      <div class="quote">
-        <blockquote>
-          <p>{{ page.quote }} <br/> &mdash; {{ page.quote-attribution }}</p>
-        </blockquote>
-      </div>
-   
-    </div>
+      <img class='card-icon' alt-text=' ' src={{ root_url | append: "/graphics/icons/" | append: page.icon_shortcode | append: ".svg" }} >
 
+      <h1> {{ page.title }} </h1>
+      {{ page.content }} 
+
+      <!-- div with three areas across card, one for magic wand, one for quick wins, one for heat air versus
+           heat people. -->
+    <div class="icons-grid-container">
+      <div class="icons-grid-item" height="40px">
+        {% if page.magic_wand %}
+          {% assign tag = site.tags| where: "title", "Magic Wands" | first %} 
+        <img class="toolkit-icon" alt="{{ tag.icon_alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+        {% endif %}
+      </div>
+      <div class="icons-grid-item">
+        {% if page.easy_wins %}
+        {% assign tag = site.tags| where: "title", "Quick Wins" | first %} 
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+      {% endif %}
+      </div>
+      <div class="icons-grid-item">
+        {% if page.heat_people %}
+        {% assign tag = site.tags| where: "title", "Heat the People" | first %} 
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+      {% elsif  page.heat_air %}
+      {% assign tag = site.tags| where: "title", "Heat the Air" | first %} 
+      <img class="toolkit-icon" alt="{{ tag.alt_text }}" src="/graphics/icons/{{ tag.icon_shortcode }}.svg">
+      {% endif %}
+      </div>
+    </div> 
+    <div class="quote" style={{ "background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>
+      <blockquote>
+        <p >{{ page.quote }} <br/> &mdash; {{ page.attribution }}</p>
+      </blockquote>
+    </div> 
+   </div>
   </body>
   <!-- <footer> "{{ page.quote }}" <br/> &mdash; {{ page.quote-attribution }} </footer> -->
-
-  
 </html>
