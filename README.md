@@ -23,6 +23,7 @@ All markdown apart from the collections is hand-written, including a widcard pag
 
 # Intended improvements
 
+- change the representation of heat_air in the master spreadsheet, get cards 44 and 45 marked properly for heat_people.
 - do the Excel fix to replace formulae with values automatically in the python, it's too painful this way.
 - ideally, make the site build automatic
 - discuss how to make it not a techy job to update the toolkit - spreadsheet is OK, but how do they change the markdown and static page structure?

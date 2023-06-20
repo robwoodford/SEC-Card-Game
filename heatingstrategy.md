@@ -35,22 +35,25 @@ Some cards are really important for heating the air and some are only about heat
 
 <div>
      Heat the air cards:
-      {% assign cards = site.cards | where: "heat_air",1 %} 
+      {% assign cards = site.cards | where: "heat_air", "space" %} <!-- :TODO: fix representation, should be bool */ -->
       <ul>
       
-          {% for card in cards %}
-          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
+          {% for card in site.cards %}
+            {% if card.heat_air %}
+                <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
+            {% endif %}
           {% endfor %}
       </ul>
 </div>
 
 <div>
      Heat the people cards:
-      {% assign cards = site.cards | where: "heat_people",1 %} 
+    <!--  {% assign cards = site.cards | where: "heat_people", 1 %}  -->
       <ul>
-      
-          {% for card in cards %}
-          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
-          {% endfor %}
+          {% for card in site.cards %}
+            {% if card.heat_people %}
+                <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
+            {% endif %}
+          {% endfor %}     
       </ul>
 </div>
