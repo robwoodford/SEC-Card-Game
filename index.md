@@ -17,8 +17,8 @@ Read "How to Use the Cards" first, and then explore your actions.
 > This website it still in preparation, but it gives you a sense of what it will contain.
 > 
 > - it is only filled out for the first two task areas, or "petals"
-> - it has no links to resources yet 
-> - we are still adding the cost levels, carbon stars, and step numbers to the cards
-> - we still want to make it easy to find the quick wins and are discussing other kinds of marks that might help guide you 
+> - it one has links for a few cards - try the one for heat pumps
+> - the costs and carbon stars need review, as do what cards and links to include 
+> - we are still discussing the correct tags (magic wands, quick wins, and so on) to put on the cards and what things "count"
 
 

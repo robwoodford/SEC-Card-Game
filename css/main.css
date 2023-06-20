@@ -103,25 +103,13 @@ hr {
   div.card p {
     padding: 10px; 
   }
-
-  div.quote {
-    /* background-color: #006400; */
-    text-align:right;
-   /* color: White; */
-  }
-
-  #div.blockquote > p {
-    margin-top: -1em;
-    margin-bottom: -1em;
-    padding: 0px;
-    text-align:right;
-}
-  blockquote {
-    /* margin: -3px; */
+ 
+#card-quote {
+    margin: -3px; 
     align:right;
     text-align:right;
   }
-
+  
   img.card-icon {
     height: 100px;
     width:  100px;
