@@ -22,13 +22,11 @@ collections:
     output: true
   tags:
     output: false
+  links:
+    output: true
 
-
-# The navigation for each collection is a separate name space for page titles: 
-# a page in one collection cannot be a child of a page in a different collection, or of a normal page.
-## so we can't use the TOC to get stuff, but can we render an appropriate task list for a petal
-## by other means?
-
+# The navigation for each collection is a separate name space from page titles.
+# A page in one collection cannot be a child of a page in a different collection, or of a normal page.
 
       # Exclude the collection from the navigation
       # Supports true or false (default)
@@ -57,6 +55,9 @@ just_the_docs:
     tags:
       name: Tags
       nav_exclude: true
+    links:
+      name: Links
+      nav_exclude: false
 
 callouts_level: quiet # or loud
 callouts:

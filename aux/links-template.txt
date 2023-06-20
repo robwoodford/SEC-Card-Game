@@ -1,0 +1,8 @@
+---
+layout: link
+link_url: $link_url
+title: $tagline
+source: $source
+card: $card
+card_number: $card_number
+---

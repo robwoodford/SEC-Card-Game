@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<html>
+  <head> {% include head_custom.html %} </head>
+  <body>
+   
+    {% include breadcrumbs.html %}
+        <h1> {{ page.title }} </h1>
+        
+        {{ content }}
+
+        <ul> 
+            {% for link in site.links %}
+                <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}})  </li>
+            {% endfor %}
+        </ul>
+
+    </body>
+</html>

@@ -8,7 +8,7 @@ import os
 # park everything in a subdirectory so it's easy to delete/shift
 temp_dir = "output"
 master_datafile = "master-spreadsheet.xlsx"
-collections = ["petals","tasks","steps","cards","tags"]
+collections = ["petals","tasks","steps","cards","tags","links"]
 
 def build_collection (name):
     print("Building %s collection...\n" % name)
