@@ -58,6 +58,7 @@ just_the_docs:
     links:
       name: Links
       nav_exclude: true
+      # possible we should search_exclude_true
 
 callouts_level: quiet # or loud
 callouts:
