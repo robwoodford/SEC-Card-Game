@@ -15,9 +15,6 @@ python generate-website.py
 rm -rf ../collections/*
 mv aux/output/* ../collections
 
-:TODO: 
-- do the Excel fix to replace formulae with values automatically in the python, it's too painful this way.
-- ideally, make the build automatic
 
 # Static pages
 
@@ -26,7 +23,11 @@ All markdown apart from the collections is hand-written, including a widcard pag
 
 # Intended improvements
 
+- do the Excel fix to replace formulae with values automatically in the python, it's too painful this way.
+- ideally, make the site build automatic
+- discuss how to make it not a techy job to update the toolkit - spreadsheet is OK, but how do they change the markdown and static page structure?
 - check for/remove extraneous header material in markdown files
+- make the css more rational
 
 - fix the magic wand size and colouring, couldn't use what was provided, always rendered tiny
 
@@ -35,7 +36,7 @@ All markdown apart from the collections is hand-written, including a widcard pag
     - colours for icons, placement for tag and wand icons
     - step and task icons, and fact we aren't using on website, breadcrumbs are sufficient and we don't want to look like a Pokemon card
 
-- improve the 
+
 # Tech notes
 
 - the root directory appears to be different on the local build than on github.io, so the graphics don't appear during development.  To fix this, use e.g. href='{{ "/graphics/card_icons/maintenancerecords.svg" | relative_url }}'.  When testing locally use 
