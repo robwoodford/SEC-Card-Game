@@ -1,13 +1,13 @@
 ---
 title: Quick Winss
 layout: plain
-nav_order: 2.3
+nav_order: 2.6
 parent: How to Use the Cards
 --- 
 
 <img class="toolkit-icon" alt="{{ tag.alt_text }}" src=' {{ "/graphics/icons/quick.svg" | relative_url }}'>
 
-![Profile pic 2021](/Users/robertwoodford/Documents/Personal/Profile pic 2021.jpg)
+![Profile pic 2021](Profile pic 2021.jpg)
 
 There are a number of actions that we consider to be quick wins - things that might be relatively easy to do and immediately reduce your energy bill.  
 
