@@ -5,7 +5,7 @@ nav_order: 2.1
 parent: How to Use the Cards
 --- 
 
-Each of our cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
+Each of our Net Zero Cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
 
 <img src='{{ "graphics/annotated-card-front.jpg" | relative_url }}' alt="the front of a net zero card showing that the title is in the centre with a unique icon for that card, the petal category shown at the top, and the step number shown at at bottom" title="annotated card front" width="750px"/>
 
