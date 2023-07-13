@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-Thank you for your interest in our Net Zero Toolkit Cards.
+Thank you for your interest in our Net Zero Toolkit and associated Net Zero Cards.
 
 Each card relates to one task in the Provincial Environment Group's Net Zero Toolkit.  Completing the task means developing a considered view of each card associated with that task and acting on the ones that will help your congregation reach net zero.
 
