@@ -43,3 +43,4 @@ All markdown apart from the collections is hand-written, including a widcard pag
 - the root directory appears to be different on the local build than on github.io, so the graphics don't appear during development.  To fix this, use e.g. href='{{ "/graphics/card_icons/maintenancerecords.svg" | relative_url }}'.  When testing locally use 
 bundle exec jekyll serve -w --baseurl '' --port 4000
 
+
