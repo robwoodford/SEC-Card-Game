@@ -2,8 +2,8 @@
 layout: steps
 number: $number
 title: $title
-petal: $petal
-nav_order: $number
+part_of_petal_with_title: $part_of_petal_with_title
+nav_order: $nav_order
 tagline: $tagline
 icon_shortcode: $icon_shortcode
 icon_alt_text: $icon_alt_text

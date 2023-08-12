@@ -13,12 +13,12 @@ cd aux
 python generate-website.py
 
 rm -rf ../collections/*
-mv aux/output/* ../collections
+mv output/* ../collections
 
 
 # Static pages
 
-All markdown apart from the collections is hand-written, including a widcard page (because otherwise this is hidden as it's not part of the petal/step/task navigation structure).
+All markdown apart from the collections is hand-written, including a wildcard page (because otherwise this is hidden as it's not part of the petal/step/task navigation structure).
 
 
 # Intended improvements

@@ -15,7 +15,7 @@ layout: default
   
     <div class="grid-container">
       <div class="grid-item" height="40px">
-        {% assign icon_path = site.tasks | where: "petal_number",page.number %} 
+        {% assign icon_path = site.tasks | where: "number",page.number %} 
         <img class="logo" alt=" " src='{{ page.icon_shortcode | prepend: "/graphics/icons/" | append: ".svg" | relative_url }}'>
       </div>
       <div class="grid-item" >
@@ -24,7 +24,7 @@ layout: default
     </div>
     <div>
     Tasks included in this petal:
-    {% assign tasks = site.tasks | where: "petal_number",page.number %} 
+    {% assign tasks = site.tasks | where: "part_of_petal_with_title",page.title %}  
     <ul>
     
         {% for task in tasks %}

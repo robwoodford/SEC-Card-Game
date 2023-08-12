@@ -3,7 +3,7 @@ layout: default
 ---
 <!doctype html>
 {% assign task = site.tasks | where: "number", page.number | first %} 
-{% assign petal = site.petals| where: "number", task.petal_number | first %} 
+{% assign petal = site.petals| where: "title", task.part_of_petal_with_title | first %} 
 <html>
   <head>
     <meta charset="utf-8">
@@ -19,7 +19,7 @@ layout: default
     
    <div>
       Cards for this task:
-      {% assign cards = site.cards | where: "task_number",page.number %} 
+      {% assign cards = site.cards | where: "part_of_task_with_title",page.title %} 
       <ul>
       
           {% for card in cards %}
