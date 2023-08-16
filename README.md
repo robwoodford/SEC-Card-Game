@@ -7,13 +7,25 @@ Done in a hurry to generate most of the website from CSV files so it's a mess :T
 # Collections
 
 Collections are generated from a spreadsheet using the scripts in aux.  To generate, open the Excel, copy all the cells on each tab and paste values in place, then save in a new
-temporary filename.  Stick in aux/master-spreadsheet.xlsx and then:
+temporary filename.  Stick in aux/master-spreadsheet.xlsx.  Ensure there is a python environment with openpyxl and pandas installed.  I was installing tidyverse but most of it isn't  
+needed.
+
+python -m venv card-game-venv   --- to create virtual environment 
+source card-game-venv/bin/activate --- to start using the virtual environment
+python -m pip install openpyxl pandas
+
+ and then:
 
 cd aux
 python generate-website.py
 
 rm -rf ../collections/*
 mv output/* ../collections
+
+To test, 
+
+cd ..
+bundle exec jekyll serve -w --baseurl '' --port 4000
 
 
 # Static pages
