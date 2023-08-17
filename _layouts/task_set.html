@@ -14,7 +14,7 @@ layout: default
         <div class="list-grid-container">
             {% assign sorted_tasks = site.tasks | sort: "nav_order" %}
             {% for task in sorted_tasks %}
-            {% assign petal = site.petals| where: "number", task.petal_number | first %} 
+            {% assign petal = site.petals| where: "title", task.part_of_petal_with_title| first %} 
             
             <div class="wrap" onclick='location.href ="{{task.url | relative_url }}";'>
                 <div class="list-row">

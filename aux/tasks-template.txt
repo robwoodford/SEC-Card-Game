@@ -3,10 +3,8 @@ layout: task
 number: $number
 nav_order: $nav_order
 title: $title
-petal_number: $petal_number
-step_number: $step_number
-petal: $petal
-step: $step
+part_of_petal_with_title: $part_of_petal_with_title
+part_of_step_with_title: $part_of_step_with_title
 has_children: false
 has_toc: false
 ---

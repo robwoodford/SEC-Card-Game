@@ -3,7 +3,7 @@ layout: default
 ---
 <!doctype html>
 {% assign task = site.tasks | where: "number", page.number | first %} 
-{% assign petal = site.petals| where: "number", task.petal_number | first %} 
+{% assign petal = site.petals| where: "title", task.part_of_petal_with_title | first %} 
 <html>
   <head>
     <meta charset="utf-8">
@@ -18,15 +18,34 @@ layout: default
 
     
    <div>
-      Cards for this task:
-      {% assign cards = site.cards | where: "task_number",page.number %} 
+     
+    {% assign cards = site.cards | where: "part_of_task_with_title",page.title %} 
+    {% if cards == empty %}
+    {% else %}
+      <h2>Cards for this task</h2>
       <ul>
-      
-          {% for card in cards %}
+        {% for card in cards %}
           <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
-          {% endfor %}
+        {% endfor %}
       </ul>
-      </div>
+    {% endif %}
+  </div>
 
+  <div>
+    {% assign links = site.links | where: "task", page.title %}
+    {% if links  == empty %}
+    {% else %}
+      <h2>Further information</h2>
+      <ul>
+        {% for link in links %}
+          {% if link.source %}
+            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}}) </li>
+          {% else %}
+            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
   </body>
 </html>

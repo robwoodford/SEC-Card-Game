@@ -2,21 +2,16 @@
 layout: card
 title: $title
 nav_order: $nav_order
-petal_number: $petal_number
-step_number: $step_number
-task_number: $task_number
-petal: $petal
-step: $step
-task: $task
+part_of_petal_with_title: $part_of_petal_with_title
+part_of_step_with_title: $part_of_step_with_title
+part_of_task_with_title: $part_of_task_with_title
 icon_shortcode: $icon_shortcode
 quote: $quote
 attribution: $attribution
-carbon_stars: $carbon_number
+carbon_number: $carbon_number
 cost: $cost
 easy_wins: $easy_wins
 magic_wand: $magic_wand
-heat_people: $heat_people
-heat_air: $heat_air
 ---
 
 $description 

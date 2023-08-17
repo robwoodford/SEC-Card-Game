@@ -27,7 +27,7 @@ layout: default
     <div>
         Tasks included in this step:
 
-        {% assign tasks = site.tasks | where: "step_number",page.number %} 
+        {% assign tasks = site.tasks | where: "part_of_step_with_title",page.title %} 
         <ul>
         
             {% for task in tasks %}

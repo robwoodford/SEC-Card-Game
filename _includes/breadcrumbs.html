@@ -8,19 +8,19 @@
     {% assign urls = page.url | relative_url | append: "?" %}  
     <!-- We don't want everything to be hierarchical structure on the sidebar, so we have a separate toolkit navigation that covers cards, tasks, steps, and petals. --> 
     <!-- it doesn't use parents and grand_parents in the usual way.  -->
-    {% if page.task %}
-      {% assign crumbs = page.task | append: "/" | append: crumbs %}
-      {% assign task = site.tasks | where: "title", page.task | first %} 
+    {% if page.part_of_task_with_title %}
+      {% assign crumbs = page.part_of_task_with_title | append: "/" | append: crumbs %}
+      {% assign task = site.tasks | where: "title", page.part_of_task_with_title | first %} 
       {% assign urls = task.url | relative_url | append: "?" | append: urls %}
     {% endif %}
-    {% if page.step %}
-      {% assign crumbs = page.step | append: "/" | append: crumbs %}
-      {% assign step = site.steps | where: "title", page.step | first %} 
+    {% if page.part_of_step_with_title %}
+      {% assign crumbs = page.part_of_step_with_title | append: "/" | append: crumbs %}
+      {% assign step = site.steps | where: "title", page.part_of_step_with_title | first %} 
       {% assign urls = step.url | relative_url | append: "?" | append: urls %}
     {% endif %} 
-    {% if page.petal %}
-      {% assign crumbs = page.petal | append: "/" | append: crumbs %}
-      {% assign petal = site.petals | where: "title", page.petal | first %} 
+    {% if page.part_of_petal_with_title %}
+      {% assign crumbs = page.part_of_petal_with_title | append: "/" | append: crumbs %}
+      {% assign petal = site.petals | where: "title", page.part_of_petal_with_title | first %} 
       {% assign urls = petal.url | relative_url | append: "?" | append: urls %}
     {% endif %}
 

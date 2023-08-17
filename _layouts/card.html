@@ -6,20 +6,20 @@ layout: default
   <head> {% include head_custom.html %} </head>
   <body>
     {% include breadcrumbs.html %}
-    {% assign task = site.tasks | where: "number", page.task_number | first %} 
-    {% assign petal = site.petals| where: "number", task.petal_number | first %}
+    {% assign task = site.tasks | where: "title", page.part_of_task_with_title | first %} 
+    {% assign petal = site.petals| where: "title", task.part_of_petal_with_title | first %}
     {% assign links = site.links | where: "card", page.title %}
     <div class="card">
       <hr style={{ "background-color:#" | append: petal.colour |  append: ";border:none;height:40px;" }}/> 
-      <div class="cost-benefit-grid-container">
+      <div class="cost-benefit-grid-container">  
         <div class="cost-benefit-grid-item-left">
           {{ page.cost }}
         </div>
         
         <div class="cost-benefit-grid-item-right">
-          {% if page.carbon_stars %}
+          {% if page.carbon_number %}
             {% assign stars = "" %}
-            {% for i in (1..page.carbon_stars) %}
+            {% for i in (1..page.carbon_number) %}
               {% assign stars = stars | append: "*" %}
             {% endfor %}
           {% endif %}
@@ -31,41 +31,39 @@ layout: default
       <h1> {{ page.title }} </h1>
       {{ page.content }} 
 
-      <!-- div with three areas across card, one for magic wand, one for quick wins, one for heat air versus
-           heat people. -->
-      <div class="icons-grid-container">
-        <div class="icons-grid-item" height="40px">
-          {% if page.magic_wand %}
-            {% assign tag = site.tags| where: "title", "Magic Wands" | first %} 
-          <img class="toolkit-icon" alt="{{ tag.icon_alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
-          {% endif %}
-        </div>
-        <div class="icons-grid-item">
-          {% if page.easy_wins %}
-          {% assign tag = site.tags| where: "title", "Quick Wins" | first %} 
-          <img class="toolkit-icon" alt="{{ tag.alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
-        {% endif %}
-        </div>
-        <div class="icons-grid-item">
-          {% if page.heat_people %}
-          {% assign tag = site.tags| where: "title", "Heat the People" | first %} 
-        <img class="toolkit-icon" alt="{{ tag.alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
-        {% elsif  page.heat_air %}
-        {% assign tag = site.tags| where: "title", "Heat the Air" | first %} 
-        <img class="toolkit-icon" alt="{{ tag.alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
-        {% endif %}
-        </div>
-      </div> 
+      <!-- div with three areas across card, one for magic wand, one for quick wins -->
+        <div class="icons-grid-container">
+          <div class="icons-grid-item" height="40px">
+            {% if page.magic_wand %}
+              {% assign tag = site.tags| where: "title", "Magic Wands" | first %} 
+              <img class="toolkit-icon" alt="{{ tag.icon_alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
+            {% endif %}
+          </div>
+          <div class="icons-grid-item" width="34%" height="40px">
+            {% if page.part_of_step_with_title %}
+              {% assign step = site.steps| where: "title", page.part_of_step_with_title | first %} 
+              <img class="card-icon" alt="{{ step.icon_alt_text }}" src='{{"/graphics/icons/" | append: step.icon_shortcode | append: ".svg" | relative_url}}'>
+            {% endif %}
+          </div>
+          <div class="icons-grid-item" width="33%" height="40px">
+            {% if page.easy_wins %}
+              {% assign tag = site.tags| where: "title", "Quick Wins" | first %} 
+              <img class="toolkit-icon" alt="{{ tag.alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
+            {% endif %}
+          </div>
+        </div> 
+
       <div class="quote" style={{ "background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>
         <blockquote id="card-quote">
-          <p >{{ page.quote }} <br/> &mdash; {{ page.attribution }}</p>
+          <p > "{{ page.quote }}" <br/> &mdash; {{ page.attribution }}</p>
         </blockquote>
       </div> 
     </div>
 
    <div class="card-links">
       {% assign links = site.links | where: "card", page.title %}
-      {% if links %}
+      {% if links == empty %}
+      {% else %}
         <h2>Further information</h2>
         <ul>
           {% for link in links %}
