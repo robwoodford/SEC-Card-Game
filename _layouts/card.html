@@ -17,9 +17,9 @@ layout: default
         </div>
         
         <div class="cost-benefit-grid-item-right">
-          {% if page.carbon_stars %}
+          {% if page.carbon_number %}
             {% assign stars = "" %}
-            {% for i in (1..page.carbon_stars) %}
+            {% for i in (1..page.carbon_number) %}
               {% assign stars = stars | append: "*" %}
             {% endfor %}
           {% endif %}

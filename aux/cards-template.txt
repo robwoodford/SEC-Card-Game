@@ -8,7 +8,7 @@ part_of_task_with_title: $part_of_task_with_title
 icon_shortcode: $icon_shortcode
 quote: $quote
 attribution: $attribution
-carbon_stars: $carbon_number
+carbon_number: $carbon_number
 cost: $cost
 easy_wins: $easy_wins
 magic_wand: $magic_wand
