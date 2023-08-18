@@ -8,7 +8,7 @@ Thank you for your interest in our Net Zero Toolkit and associated Net Zero Card
 
 Each card relates to one task in the Provincial Environment Group's Net Zero Toolkit.  Completing the task means developing a considered view of each card associated with that task and acting on the ones that will help your congregation reach net zero.
 
-<img src="graphics/NetZeroActionPlan10petals.jpg" alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1500px"/>
+<img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.jpg" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1500px">
 
 Read "How to Use the Cards" first, and then explore your actions.
 

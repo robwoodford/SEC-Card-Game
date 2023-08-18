@@ -45,12 +45,14 @@ layout: default
               <img class="card-icon" alt="{{ step.icon_alt_text }}" src='{{"/graphics/icons/" | append: step.icon_shortcode | append: ".svg" | relative_url}}'>
             {% endif %}
           </div>
-          <div class="icons-grid-item" width="33%" height="40px">
+          <!-- decided against 
+            <div class="icons-grid-item" width="33%" height="40px">
             {% if page.easy_wins %}
               {% assign tag = site.tags| where: "title", "Quick Wins" | first %} 
               <img class="toolkit-icon" alt="{{ tag.alt_text }}" src='{{"/graphics/icons/" | append: tag.icon_shortcode | append: ".svg" | relative_url}}'>
             {% endif %}
           </div>
+        -->
         </div> 
 
       <div class="quote" style={{ "background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>
