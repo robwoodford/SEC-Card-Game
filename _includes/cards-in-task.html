@@ -1,0 +1,19 @@
+<div>
+  {% assign cards = site.cards | where: "part_of_task_with_title",page.title %}  
+  {% if cards == empty %}
+  {% else %}
+    <h2>Cards in this task</h2>
+    <div class="compact-grid-container">
+      {% for card in cards %}
+        <div class="wrap" onclick='location.href ="{{ card.url | relative_url }}";'>
+               <div class="compact-icon">
+                    <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: card.icon_shortcode | append: ".svg" | relative_url }}' >
+                </div>
+                <div class="compact-title">
+                    {{ card.title }}
+                </div>
+        </div>
+        {% endfor %}
+    </div>
+  {% endif %} 
+</div>

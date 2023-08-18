@@ -1,5 +1,5 @@
 ---
-layout: steps
+layout: step
 number: $number
 title: $title
 part_of_petal_with_title: $part_of_petal_with_title

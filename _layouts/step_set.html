@@ -19,9 +19,10 @@ layout: default
                         <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: step.icon_shortcode | append: ".svg" | relative_url }}' >
                     </div>
                     <div class="list-description">
-                         {{  step.title | append: "<br/>" | append: step.tagline }} 
-                    </div>   
-                
+                        <strong> {{  step.title }} </strong>
+                        <br> 
+                        {{ step.tagline }} 
+                    </div> 
                 </div>
             </div>
             {% endfor %}

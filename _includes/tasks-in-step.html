@@ -1,0 +1,13 @@
+<div>
+    {% assign tasks = site.tasks | where: "part_of_step_with_title",page.title %}  
+    {% if tasks == empty %}
+    {% else %}
+      <h2>Tasks in this step</h2>
+        <div class="compact-grid-container">
+          {% for task in tasks %}
+            {% assign petal = site.petals| where: "title", task.part_of_petal_with_title| first %} 
+            {% include render-task.html %}
+          {% endfor %}
+        </div>
+    {% endif %} 
+  </div>

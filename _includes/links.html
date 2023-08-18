@@ -1,0 +1,16 @@
+<div class="links">
+  
+    {% if links == empty %}
+    {% else %}
+      <h2>Further information</h2>
+      <ul>
+        {% for link in links %}
+          {% if link.source %}
+            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}}) </li>
+          {% else %}
+            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>

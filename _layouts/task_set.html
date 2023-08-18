@@ -10,7 +10,6 @@ layout: default
         
         {{ content }}
 
-
         <div class="list-grid-container">
             {% assign sorted_tasks = site.tasks | sort: "nav_order" %}
             {% for task in sorted_tasks %}
@@ -20,12 +19,11 @@ layout: default
                 <div class="list-row">
                     
                     <div class="list-icon">
-                        <p style={{ "font-size:x-large;background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>{{ task.number }} </p>
+                        <p style={{ "font-size:x-large;padding:12px;background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}>{{ task.number }} </p>
                     </div>
                     <div class="list-description">
-                         {{  task.title | append: "<br/>" | append: task.tagline }} 
+                        <strong> {{  task.title }} </strong>
                     </div>   
-                
                 </div>
             </div>
             {% endfor %}

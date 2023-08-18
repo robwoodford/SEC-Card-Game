@@ -17,35 +17,16 @@ layout: default
     {{ content }}
 
     
-   <div>
+  
      
     {% assign cards = site.cards | where: "part_of_task_with_title",page.title %} 
-    {% if cards == empty %}
-    {% else %}
-      <h2>Cards for this task</h2>
-      <ul>
-        {% for card in cards %}
-          <li><a href="{{ card.url | relative_url }}">{{ card.title }} </a></li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
 
-  <div>
+    {% include cards-in-task.html %}
+    
+
+
     {% assign links = site.links | where: "task", page.title %}
-    {% if links  == empty %}
-    {% else %}
-      <h2>Further information</h2>
-      <ul>
-        {% for link in links %}
-          {% if link.source %}
-            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}}) </li>
-          {% else %}
-            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
+    {% include links.html %}
+
   </body>
 </html>

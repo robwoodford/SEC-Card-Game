@@ -60,19 +60,10 @@ layout: default
       </div> 
     </div>
 
-   <div class="card-links">
-      {% assign links = site.links | where: "card", page.title %}
-      {% if links == empty %}
-      {% else %}
-        <h2>Further information</h2>
-        <ul>
-          {% for link in links %}
-            <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}}) </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div>
-   </div>
+    
+    {% assign links = site.links | where: "card", page.title %}
+    {% include links.html %}
+
 
   </body>
   <!-- <footer> "{{ page.quote }}" <br/> &mdash; {{ page.quote-attribution }} </footer> -->

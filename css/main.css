@@ -22,6 +22,7 @@ nav {display: none;}
 
 .wrap{
   cursor: pointer;
+  outline: 2px solid;
 }
 
 div.list-grid-container {
@@ -35,7 +36,6 @@ div.list-row {
     display: grid;
     grid-template-rows: 100px;
     grid-template-columns: 100px auto;
-    outline: 2px solid;
     text-align: left;
     align-items: center;
   }
@@ -45,10 +45,36 @@ div.list-row {
     padding: 10px;
   }
 
+  div.list-description {
+    padding: 10px;
+  }
+
+  div.compact-grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  div.compact-icon {
+    display: flex;
+    padding: 10px;
+  }
+
+  div.compact-title {
+    display: flex;
+    padding: 30px;
+  }
+
+  /*
   div.description {
     display: flex;
     padding: 10px;
   }
+  */
 
 /* css for card pages */
 
@@ -86,9 +112,14 @@ hr {
   }
 
 .grid-item {
-    text-align: left;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
     align-items: center;
   }
+
+  /*  text-align: left;
+    align-items: center; */
 
   div.card {
     outline: 2px solid #006400; 
@@ -125,6 +156,7 @@ hr {
     display: flex;
     height: 60px;
     width: 60px;
+    paddihg: 10px;
   }
 
   img.tag-icon {

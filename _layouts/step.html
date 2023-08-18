@@ -24,17 +24,7 @@ layout: default
       </div>
     -->
 
-    <div>
-        Tasks included in this step:
-
-        {% assign tasks = site.tasks | where: "part_of_step_with_title",page.title %} 
-        <ul>
-        
-            {% for task in tasks %}
-            <li><a href="{{ task.url | relative_url }}">{{ task.number }} &mdash; {{ task.title }} </a></li>
-            {% endfor %}
-        </ul>
-    </div>
+    {% include tasks-in-step.html %}
 
   </body>
 </html>

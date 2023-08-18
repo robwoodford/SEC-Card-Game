@@ -23,48 +23,11 @@ layout: default
       </div>
     </div>
 
-    <div>
-      {% assign steps = site.steps | where: "part_of_petal_with_title",page.title %}  
-      {% if steps == empty %}
-      {% else %}
-        <h2>Steps included in this petal</h2>
-        <ul>
-          {% for step in steps %}
-            <li><a href="{{ task.url | relative_url }}">{{ step.number }} &mdash; {{ step.title }} </a></li>
-          {% endfor %}
-        </ul>
-      {% endif %} 
-    </div>
-
-    <div>
-      {% assign tasks = site.tasks | where: "part_of_petal_with_title",page.title %}  
-      {% if tasks == empty %}
-      {% else %}
-        <h2>Tasks included in this petal</h2>
-        <ul>
-          {% for task in tasks %}
-            <li><a href="{{ task.url | relative_url }}">{{ task.number }} &mdash; {{ task.title }} </a></li>
-          {% endfor %}
-        </ul>
-      {% endif %} 
-    </div>
-
-    <div class="card-links">
-      {% assign links = site.links | where: "petal", page.title %}
-      {% if links == empty %}
-      {% else %}
-        <h2>Further information</h2>
-        <ul>
-          {% for link in links %}
-            {% if link.source %}
-              <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> (from {{link.source}}) </li>
-            {% else %}
-              <li><a href={{link.link_url | relative_url }}> {{link.title }} </a> </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div>
+    {% include steps-in-petal.html %}
+    {% include tasks-in-petal.html %}
+    {% assign links = site.links | where: "petal", page.title %}
+    {% include links.html %}
+ 
    </div>
   </body>
 </html>

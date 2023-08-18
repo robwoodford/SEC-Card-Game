@@ -1,0 +1,19 @@
+<div>
+    {% assign steps = site.steps | where: "part_of_petal_with_title",page.title %}  
+    {% if steps == empty %}
+    {% else %}
+      <h2>Steps in this petal</h2>
+      <div class="compact-grid-container">
+        {% for step in steps %}
+          <div class="wrap" onclick='location.href ="{{ step.url | relative_url }}";'>
+                 <div class="compact-icon">
+                      <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: step.icon_shortcode | append: ".svg" | relative_url }}' >
+                  </div>
+                  <div class="compact-title">
+                      {{ step.title }}
+                  </div>
+          </div>
+          {% endfor %}
+      </div>
+    {% endif %} 
+  </div>
