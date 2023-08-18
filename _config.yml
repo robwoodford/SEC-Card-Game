@@ -42,10 +42,10 @@ just_the_docs:
   collections:
     petals:
       name: Petals
-      nav_exclude: false
+      nav_exclude: true
     tasks:
       name: Tasks
-      nav_exclude: false
+      nav_exclude: true
     cards:
       name: Cards
       nav_exclude: false
