@@ -1,0 +1,14 @@
+  <div class="wrap" onclick='location.href ="{{ step.url | relative_url }}";'>
+    <div class="list-row">
+        
+       <div class="list-icon">
+            <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: step.icon_shortcode | append: ".svg" | relative_url }}' >
+        </div>
+        <div class="list-description">
+              <strong> {{  step.title }} </strong>
+              <br> 
+              {{ step.tagline }} 
+        </div>   
+    
+    </div>
+</div>

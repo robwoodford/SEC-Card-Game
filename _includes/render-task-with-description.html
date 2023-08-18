@@ -1,0 +1,9 @@
+<div class="compact-icon">
+    <div class="wrap" onclick='location.href ="{{ task.url | relative_url }}";'>
+      <!-- ersatz icon -->
+      <p style={{ "font-size:x-large;padding-left:10px;margin:0px;background-color:#" | append: petal.colour |  append: ";color:#" | append: petal.text_colour | append: ";border:none;" }}> {{ task.number }} - {{ task.title }}</p>
+      <div class="compact-description">
+        {{ task.content }} 
+      </div> 
+    </div>
+  </div>

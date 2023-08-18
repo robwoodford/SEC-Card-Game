@@ -10,19 +10,12 @@ layout: default
   <body>
 
     {% include breadcrumbs.html %}
+
     <h1> {{ page.number }} &mdash; {{ page.title }}</h1>
     
-    {{ page.tagline }}
+    {% assign step=page %}
+    {% include render-step.html %}
 
-    <!-- <div class="grid-container">
-        <div class="grid-item" height="40px">
-          <img class="logo" alt=" " src="/graphics/icons/{{ page.icon_shortcode }}.svg">
-        </div>
-        <div class="grid-item">
-          {{ page.tagline | downcase | capitalize }}
-        </div>
-      </div>
-    -->
 
     {% include tasks-in-step.html %}
 

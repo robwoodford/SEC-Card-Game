@@ -7,7 +7,7 @@
       {% for card in cards %}
         <div class="wrap" onclick='location.href ="{{ card.url | relative_url }}";'>
                <div class="compact-icon">
-                    <img class='toolkit-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: card.icon_shortcode | append: ".svg" | relative_url }}' >
+                    <img class='card-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: card.icon_shortcode | append: ".svg" | relative_url }}' >
                 </div>
                 <div class="compact-title">
                     {{ card.title }}

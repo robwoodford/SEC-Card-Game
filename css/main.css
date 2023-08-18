@@ -54,20 +54,27 @@ div.list-row {
     grid-template-rows: auto;
     grid-template-columns: auto auto auto;
     gap: 20px;
-    padding-top: 30px;
     text-align: center;
     align-items: center;
+    justify-content: center;
   }
 
   div.compact-icon {
-    display: flex;
+    display: block;
     padding: 10px;
   }
 
   div.compact-title {
     display: flex;
+    height: 150px;
     padding: 30px;
   }
+
+  div.compact-description {
+    display: flex;
+    padding: 30px;
+  }
+
 
   /*
   div.description {
@@ -153,10 +160,13 @@ hr {
   img.toolkit-icon {
     /* background-color: white;*/
     border-style: none;
-    display: flex;
     height: 60px;
     width: 60px;
-    paddihg: 10px;
+    display: block;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
   }
 
   img.tag-icon {
