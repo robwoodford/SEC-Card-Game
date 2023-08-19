@@ -12,6 +12,8 @@ Carbon emissions associated with reaching net zero are generally categorised int
 
 <img src='{{ "graphics/net-zero-scopes.jpg" | relative_url }}' alt="an overview of the scopes of inclusion within the Net Zero Action Plan (2023-2030)" title="Net Zero Scopes of Inclusion" width="750px"/>
 
-For the SEC Net Zero 2023-2030 action plan, we are including all Scope 1 and 2 emissions, as well as reimbursable travel from scope 3. This is summarised in the graphic below with the dotted lines representing those emissions that should be addressed by 2030. More detail can be found in the Net Zero Action Plan (2023-2030). You can also watch a short webinar about What is Net Zero 2030? Presented by Robert Woodford in December 2022.
+For the SEC Net Zero 2023-2030 action plan, we are including all Scope 1 and 2 emissions, as well as reimbursable travel from scope 3. This is summarised in the graphic above with the dotted lines representing those emissions that should be addressed by 2030.
 
-You can find a full overview of the scopes of inclusion in the Net Zero Action Plan (2023-2030).
+You can find a full overview of the scopes of inclusion  in the [Net Zero Action Plan (2023-2030)](https://www.scotland.anglican.org/wp-content/uploads/NZAP-For-GS-2023-Final.pdf).
+
+You can also watch a short webinar about [What is Net Zero 2030?](https://www.youtube.com/watch?v=Nui_z37UNRM) presented by Robert Woodford in December 2022.
