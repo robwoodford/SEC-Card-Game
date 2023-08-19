@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Wildcard
+nav_order: 4.2
+parent: How to use the Cards
 quote: To invent, you need a good imagination and a pile of junk.
 quote-attribution: Thomas A. Edison
 category: nan
