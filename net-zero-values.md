@@ -2,7 +2,7 @@
 title: Net Zero Values
 layout: plain
 nav_order: 2.1
-has_children: true
+Parent: About Net Zero
 ---
 
 ## Discipleship
