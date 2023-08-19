@@ -1,7 +1,7 @@
 ---
 title: Magic Wands
 layout: plain
-nav_order: 2.4
+nav_order: 4.4
 parent: How to Use the Cards
 --- 
 
