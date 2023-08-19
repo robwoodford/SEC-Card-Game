@@ -1,7 +1,8 @@
 ---
-title: Net Zero Definition
+title: About Net Zero
 layout: plain
 nav_order: 1
+has_children: true
 ---
 
 # Defining Net Zero 2030 
