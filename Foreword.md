@@ -1,5 +1,5 @@
 ---
-title: Primus Foreword
+title: Foreword
 layout: plain
 parent: Welcome
 nav_order: 1.1
