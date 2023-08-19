@@ -1,7 +1,7 @@
 ---
 title: Calculating Net Zero
 layout: plain
-nav_order: 2.2
+nav_order: 2.3
 parent: About Net Zero
 ---
 
