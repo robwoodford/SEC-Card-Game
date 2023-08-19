@@ -19,4 +19,6 @@ The College of Bishops commends the Net Zero Toolkit to all the dioceses, charge
 
 People of faith are also people of hope, we believe in the hope of salvation, the hope of God's love and care for us and for this planet. Difficult as some of the changes may be, they are also signs of hope, each step on the road will bring hope to ourselves, to others, and to all of God's Creation
 
+_The Most Rev Mark Strange, Primus_
+
 <img alt-text=' ' src='{{"/graphics/primus_signature.jpg" | relative_url}}'  alt="Signature" width="200px">
