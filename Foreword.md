@@ -5,8 +5,6 @@ parent: Welcome
 nav_order: 1.1
 ---
 
-_The trees of the field shall clap their hands. (Isaiah 55:12)_
-
 Communities across the world are living with the devastating impacts as changes take place in the environment around them, with those least responsible for the climate and ecological crises being affected the most. Food becomes harder to produce, sea levels rise and drought hits - to name just a few of these impacts; these are not imagined threats of the future, these are things happening now to our brothers and sisters across the world. As part of God's creation and as part of the body of Christ we have a responsibility not only for what happens on our doorstep but also for what happens to the whole of God's Creation.
 
 The Scottish Episcopal Church, along with partner churches and environmental groups, has committed to achieve net zero carbon emissions by 2030, to help limit the changes to the environment and to begin to restore the balance in Creation.
