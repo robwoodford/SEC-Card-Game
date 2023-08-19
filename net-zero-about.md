@@ -1,7 +1,7 @@
 ---
 title: About Net Zero
 layout: plain
-nav_order: 2.2
+nav_order: 2
 has_children: true
 ---
 
