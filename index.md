@@ -13,12 +13,12 @@ This updated version of the toolkit aims to:
 -  Demonstrate where help and support are available
 -  Provide a simple guide to the process - recognising that no one size fits all
 
-# Getting started
+## Getting started
 With so much work to do, it can be hard to know where to start. The petals below breaks down the necessary actions into manageable steps which can be built upon progressively and realistically. There are many small tasks that can be easily accomplished - indeed, many churches will find that they are doing them already. It is intended primarily for congregations, but dioceses, provincial bodies and individuals may also find the checklist helpful. 
 
 <img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.jpg" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
 
-# Future iterations
+## Future iterations
 A new Net Zero Delivery Director, in consultation with the Provincial Environment Group (PEG), will update this toolkit on an iterative basis, sharing additional resources and creating further tools to help support you as we collectively learn more. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
 
 
