@@ -2,7 +2,7 @@
 title: Net Zero Values
 layout: plain
 nav_order: 2.1
-Parent: About Net Zero
+parent: About Net Zero
 ---
 
 | Values       | The lens through which we see the task ahead                 |
