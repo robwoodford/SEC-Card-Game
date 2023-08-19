@@ -2,7 +2,7 @@
 title: Defining Net Zero
 layout: plain
 nav_order: 2.1
-has_children: true
+parent: Net Zero About
 ---
 
 Carbon emissions associated with reaching net zero are generally categorised into three types of emissions known as ‘scopes’. Scope 1 emissions are the direct emissions arising from on-site generation of energy in our buildings, vehicles, or land. Scope 2 emissions are indirect emissions associated with the use of electricity, heat, steam, and/or cooling. Scope 3 emissions are all other indirect emissions that occur in the day to day running of the church’s operations – in other words the purchased goods and services the church uses, its waste, water use as well as reimbursable work-related travel. 
