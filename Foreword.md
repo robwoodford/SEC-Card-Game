@@ -1,8 +1,10 @@
 ---
-title: Letter
+title: Foreword
 layout: home
-nav_order: 1
+nav_order: 2
 ---
+# Foreword
+_The trees of the field shall clap their hands. (Isaiah 55:12)_
 
 Communities across the world are living with the devastating impacts as changes take place in the environment around them, with those least responsible for the climate and ecological crises being affected the most. Food becomes harder to produce, sea levels rise and drought hits - to name just a few of these impacts; these are not imagined threats of the future, these are things happening now to our brothers and sisters across the world. As part of God's creation and as part of the body of Christ we have a responsibility not only for what happens on our doorstep but also for what happens to the whole of God's Creation.
 
@@ -16,11 +18,4 @@ The College of Bishops commends the Net Zero Toolkit to all the dioceses, charge
 
 People of faith are also people of hope, we believe in the hope of salvation, the hope of God's love and care for us and for this planet. Difficult as some of the changes may be, they are also signs of hope, each step on the road will bring hope to ourselves, to others, and to all of God's Creation
 
-<img alt-text=' ' src='{{"/graphics/primus_signature.jpg" | relative_url}}'  alt="Signature" width="100px">
-
-<img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.jpg" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1500px">
-
-
-{: .note }
-
-> Still in progress
+<img alt-text=' ' src='{{"/graphics/primus_signature.jpg" | relative_url}}'  alt="Signature" width="200px">
