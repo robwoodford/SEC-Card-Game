@@ -7,7 +7,12 @@ has_children: true
 
 Net zero in simple terms is where the greenhouse gases released into the atmosphere are balanced by their removal out of the atmosphere. This is crucial for stopping climate change because GHGs, such as carbon dioxide (CO2) and methane, trap heat in the Earth's atmosphere and contribute to global warming. By achieving net zero emissions, we can significantly slow down the rate of climate change and reduce its severe impacts, such as rising temperatures, sea level rise, extreme weather events, and disruptions to ecosystems.
 
-Our approach to tackling the significant challenge of Net Zero 2030 is guided by three Christian values: discipleship, justice and hope. As we join together in this shared journey, it is hoped they will also sustain us for the journey ahead. Collectively, they are the lens through which we see the task ahead.
+Our approach to tackling the significant challenge of Net Zero 2030 is guided by three Christian values: 
+* **Discipleship**
+* **Justice**
+* **Hope**
+
+As we join together in this shared journey, it is hoped they will also sustain us for the journey ahead. Collectively, they are the lens through which we see the task ahead.
 
 ## Discipleship
 As disciples we are all called to live out the teachings of Jesus in our day-to- day lives, following Christ’s advocacy for love, justice and compassion in the world and responding in ways that imitate the life of Christ in our thoughts, words and deeds. Discipleship is, in the words of Rowan Williams, about “going on asking whether what we do, how we think and speak and act, is open to Christ and Christ’s Spirit; developing the skills of asking ourselves the difficult questions about our consistency and honesty, about how seriously we take what we say.”2 We acknowledge that this calling is not about one off ‘net zero fixes’ but about the active and continuous participation in the transformation of the world, fusing our lives into alignment with Christ. As disciples, we are called to protect and care for God’s creation and to hold steadfastly to the Anglican Communion’s fifth mark of mission – ‘to strive to safeguard the integrity of creation and sustain and renew the life of the earth’ – transforming this mission into our actions.
