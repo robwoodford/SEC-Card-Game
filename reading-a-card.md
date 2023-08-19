@@ -2,7 +2,7 @@
 title: Reading a Card
 layout: plain
 nav_order: 4.1
-parent: How to Use the Cards
+parent: How to use the Cards
 --- 
 
 Each of our Net Zero Cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
