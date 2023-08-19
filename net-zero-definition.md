@@ -14,4 +14,4 @@ Carbon emissions associated with reaching net zero are generally categorised int
 
 For the SEC Net Zero 2023-2030 action plan, we are including all Scope 1 and 2 emissions, as well as reimbursable travel from scope 3. This is summarised in the graphic below with the dotted lines representing those emissions that should be addressed by 2030. More detail can be found in the Net Zero Action Plan (2023-2030). You can also watch a short webinar about What is Net Zero 2030? Presented by Robert Woodford in December 2022.
 
-A summary of the scopes of inclusion for 2030 is as follows:
+You can find a full overview of the scopes of inclusion in the Net Zero Action Plan (2023-2030).
