@@ -5,7 +5,7 @@ nav_order: 4.1
 parent: How to Use the Cards
 --- 
 
-Each of our net zero cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
+Each of our Net Zero Cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
 
 The front of the card has the action title with a unique icon for that card, and also shows the "petal" category for the card as given in the Net Zero Toolkit.  There's a good order for considering the cards that relate to buildings, so for these we also have a step number at the bottom, from 1 to 6. 
 
