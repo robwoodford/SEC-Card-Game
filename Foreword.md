@@ -3,6 +3,7 @@ title: Foreword
 layout: plain
 parent: Welcome
 nav_order: 1.1
+---
 
 _The trees of the field shall clap their hands. (Isaiah 55:12)_
 
