@@ -1,10 +1,9 @@
 ---
-
+title: Foreword
 layout: plain
 parent: Welcome
 nav_order: 1.1
 ---
-# Foreward from the Primus
 
 Communities across the world are living with the devastating impacts as changes take place in the environment around them, with those least responsible for the climate and ecological crises being affected the most. Food becomes harder to produce, sea levels rise and drought hits - to name just a few of these impacts; these are not imagined threats of the future, these are things happening now to our brothers and sisters across the world. As part of God's creation and as part of the body of Christ we have a responsibility not only for what happens on our doorstep but also for what happens to the whole of God's Creation.
 
