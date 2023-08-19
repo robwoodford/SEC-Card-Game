@@ -21,6 +21,8 @@ With so much work to do, it can be hard to know where to start. The petals below
 
 <img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.jpg" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
 
+Jump to the Toolkit Structure menu item (on the left side panel) if you're eager to start some action!
+
 ## Future iterations
 The Net Zero Delivery Director in consultation with the Provincial Environment Group (PEG), will update this toolkit on an iterative basis, sharing additional resources and creating further tools to help support you. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
 
