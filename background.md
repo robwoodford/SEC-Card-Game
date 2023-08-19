@@ -9,8 +9,8 @@ The Scottish Episcopal Church is a diverse church, with a wide range of differen
 
 We are collectively guided by the Anglican Communion’s Five Marks of Mission as a common set of principles for the whole church. 
 
-* To proclaim the Good News of the Kingdom To teach, baptise and nurture new believers
-* To respond to human need by loving service
+* To proclaim the Good News of the Kingdom
+* To teach, baptise and nurture new believers to respond to human need by loving service
 * To seek to transform unjust structures of society
 * To challenge violence of every kind and to pursue peace and reconciliation
 * To strive to safeguard the integrity of creation and sustain and renew the life of the earth
