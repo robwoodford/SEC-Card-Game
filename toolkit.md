@@ -20,3 +20,4 @@ There are ten categories (we call them "Petals") within the toolkit. These are b
 
 Within each of these petal categories there are a number of specific tasks, which provide a suggested direction for helping to achieve the objectives within the Net Zero Action Plan. As the focus on this plan in the near term is concentrated on Energy Effiecieny Improvements and Clean Energy, these tasks also have a set of 'cards' associated with them. Each card provides further detail on the specific actions required to support the tasks, along with links to supporting resources and information.
 
+<img alt-text=' ' src='{{"/graphics/toolkitstructure.png" | relative_url}}'  alt="Graphical overview of the strucutre of the Net Zero toolkit" width="1000px">
