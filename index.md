@@ -25,6 +25,7 @@ This toolkit is intended primarily for congregations, but dioceses, provincial b
 
 Jump to the Toolkit Structure menu item (on the left side panel) if you're eager to start some action!
 
+<!-- RW original 
 ## Future iterations
 This toolkit will be updated on an iterative basis, sharing additional resources and creating further tools to help support you as and when we get them. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
 
@@ -34,3 +35,24 @@ Please provide feedback on ways to improve this at [environment@scotland.anglica
 NOTE: This toolkit is still in the early stages of development,
 but it gives you a sense of what it will contain and the direction we are heading.
 ~~~
+-->
+<!-- JC rewrite -->
+
+<div class="callout-left full">
+
+<h3>Work in Progress</h3>
+
+<p>
+    This toolkit will change as you tell us your experiences with it. 
+    
+    Please tell us how to improve it by email. 
+ <ul>
+ <li>  
+    <a href="mailto:environment@scotland.anglican.org">Email Us</a> 
+ </li>
+ </ul>
+    
+    We hope you will share your good practices with us and with your Diocese and local community so we can all support each other.  
+</p>
+
+</div>
