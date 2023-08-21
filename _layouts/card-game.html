@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<html>
+  <head> {% include head_custom.html %} </head>
+  <body>
+    
+    <h1> {{ page.title }} </h1>
+        
+    {{ content }}
+
+    <div class="compact-grid-container">
+    {% assign sorted_cards = site.cards | sort: "nav_order" %}
+    {% for card in sorted_cards %}
+        <div class="wrap" onclick='location.href ="{{ card.url | relative_url }}";'>
+           <div class="compact-icon">
+                <img class='card-icon' alt-text=' ' src='{{ "/graphics/icons/" | append: card.icon_shortcode | append: ".svg" | relative_url }}' >
+            </div>
+            <div class="compact-title">
+                {{ card.title }}
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+    </body>
+</html>
