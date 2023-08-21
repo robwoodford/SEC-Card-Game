@@ -33,6 +33,7 @@
 
     {% assign crumbs = crumbs | split: "/" %}
     {% assign urls = urls | split: "?" %}
+    <!-- This breadcrumb to Home isn't working on Github Pages now.  Hardwire to the correct destination if it doesn't work after final website destination is chosen. -->
     <a href="/">Home</a>
     {% for crumb in crumbs %}
       {% assign i = forloop.index0 %}
