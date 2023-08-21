@@ -19,7 +19,7 @@ This updated version of the toolkit aims to:
 ## Getting started
 With so much work to do, it can be hard to know where to start. The petals below break down the necessary actions into manageable steps which can be built upon progressively and realistically. There are many small tasks that can be easily accomplished - indeed, many churches will find that they are doing them already. It is intended primarily for congregations, but dioceses, provincial bodies and individuals may also find the checklist helpful. 
 
-<img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.jpg" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
+<img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.png" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
 
 Jump to the Toolkit Structure menu item (on the left side panel) if you're eager to start some action!
 
