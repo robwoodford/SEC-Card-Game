@@ -1,8 +1,8 @@
 title: Net Zero Toolkit
 description: The website for the toolkit that accompany the Scottish Episcopal Church's Net Zero Action Plan (2023-2030)
 baseurl: "."
-url: "https://jeancarletta.github.io/SEC-Card-Game"
-repository: JeanCarletta/SEC-Card-Game # for github-metadata
+url: "https://robwoodford.github.io/SEC-Card-Game-staging"
+repository: robwoodford/SEC-Card-Game-staging # for github-metadata
 theme: just-the-docs
 logo: ./graphics/site-logo.png
 
@@ -42,7 +42,7 @@ just_the_docs:
   collections:
     petals:
       name: Petals
-      nav_exclude: true
+      nav_exclude: false
     tasks:
       name: Tasks
       nav_exclude: true
