@@ -5,7 +5,6 @@ nav_order: 6
 has_children: false
 ---
 
-## Net Zero Workshops
 Taking the required steps, in the right order and prioritising all the various actions is complex and no one size fits all.
 
 With this in mind, we intend to pilot a new Net Zero workshop programme that can be organised with charges in conjunction with our partner Heathack.
