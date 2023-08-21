@@ -24,11 +24,11 @@ With so much work to do, it can be hard to know where to start. The petals below
 Jump to the Toolkit Structure menu item (on the left side panel) if you're eager to start some action!
 
 ## Future iterations
-The Net Zero Delivery Director in consultation with the Provincial Environment Group (PEG), will update this toolkit on an iterative basis, sharing additional resources and creating further tools to help support you. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
+This toolkit will be updated on an iterative basis, sharing additional resources and creating further tools to help support you as and when we get them. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
 
 ~~~
 NOTE: This toolkit is still in the early stages of development,
 but it gives you a sense of what it will contain and the direction we are heading.
-Please provide feedback via our local Net Zero Champion.
 ~~~
+Please provide feedback on ways to improve this at [environment@scotland.anglican.org](mailto:environment@scotland.anglican.org)
 
