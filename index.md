@@ -19,7 +19,7 @@ This updated version of the toolkit aims to:
 ## Getting started
 With so much work to do, it can be hard to know where to start. The ten core objectives of the Net Zero Action Plan (or petals as we call them) are broken down into a number of tasks and set of steps, which can be built upon progressively and realistically. There are a number of basic tasks that can be easily accomplished by all - indeed many churches will find that they are doing these.
 
-This toolkit is intended primarily for congregations, but dioceses, provincial bodies and individuals may also find it helpful.
+This toolkit is intended primarily for congregations but dioceses, provincial bodies and individuals may also find it helpful.
 
 <img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.png" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
 
