@@ -7,7 +7,7 @@ parent: About Net Zero
 
 Our Net Zero Action Plan lays out a positive future for the church, tackling head on the UN triple planetary crises of climate change, nature and biodiversity loss and pollution.
 
-With unerring focus and dedicated resource, we can address these challenges, transforming the operations of the Scottish Episcopal Church to act in harmony with the living ecosystems in which it resides.
+With unerring focus and dedicated resources, we can address these challenges, transforming the operations of the Scottish Episcopal Church to act in harmony with the living ecosystems in which it resides.
 
 Our 2030 vision is of a flourishing future for the whole church.
 
