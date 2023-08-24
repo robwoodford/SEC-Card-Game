@@ -9,7 +9,7 @@ Each of our Net Zero Cards describes an action your congregation could take and 
 
 <img src='{{ "graphics/Reading-NetZeroCards.jpg" | relative_url }}' alt="An Online Net Zero Card showing that the title is in the centre with a unique icon for that card and the step number shown at at bottom" title="annotated card front" width="750px"/>
 
-Each card has a title and unique icon with an 100 word overview provided below this. At the lower centre of the card, the corresponding step number is shown (see Steps section under Toolkit Structure). A brief motivating quote is shown on the bottom riught.
+Each card has a **Card Title** and unique **Card Icon** with an 100 word **Overview** provided below this. At the lower centre of the card, the corresponding **Step Number** is shown (see Steps section under Toolkit Structure). A brief **Motivating qQote** is shown on the bottom riught.
 
 The cards also show two further things: a relative Cost Indicator and the potential Carbon Savings Indicator.
 
