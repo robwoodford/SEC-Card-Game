@@ -21,4 +21,4 @@ Leave time at the end of your session together to think about what happens next.
 
 Some groups prefer to record audio snippets with what they’ve agreed about each card and have someone fill out the planning template afterwards.
 
-The Net Zero Workshops provide a facilitated process in which you can be supported through this process.
+The Net Zero Workshops provide a facilitated process which you support you through this process.
