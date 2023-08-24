@@ -1,7 +1,7 @@
 ---
 title: Reading a Card
 layout: plain
-nav_order: 4.1
+nav_order: 5.1
 parent: How to use the Cards
 --- 
 
