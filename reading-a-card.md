@@ -25,4 +25,6 @@ The cards also show two further things: a relative Cost Indicator and the potent
 
 **Carbon Savings Indicator** provides a scale from \*, bringing modest improvements, to \*\*\*\*\*, with very large carbon savings.
 
-The levels can only be very rough because your costs and benefits will depend on your building and how you use it, but we hope they form a useful guide.  
+The levels can only be very rough because your costs and benefits will depend on your building and how you use it, but we hope they form a useful guide.
+
+If you feel stuck, look for Magic Wand cards (shown with an icon). These are the cards that can be real game-changers because they make a big change from “business as usual.”
