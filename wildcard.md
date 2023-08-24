@@ -2,7 +2,7 @@
 layout: default
 title: Wildcard
 nav_order: 5.2
-parent: How to use the Cards
+parent: Using the Net Zero Cards
 quote: To invent, you need a good imagination and a pile of junk.
 quote-attribution: Thomas A. Edison
 category: nan
