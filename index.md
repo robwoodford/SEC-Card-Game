@@ -23,20 +23,7 @@ This toolkit is intended primarily for congregations but dioceses, provincial bo
 
 <img alt-text=' ' src='{{"/graphics/NetZeroActionPlan10petals.png" | relative_url}}'  alt="The Scottish Episcopal Church's 10 task areas, called petals" width="1000px">
 
-Jump to the Toolkit Structure menu item (on the left side panel) if you're eager to start some action!
-
-<!-- RW original 
-## Future iterations
-This toolkit will be updated on an iterative basis, sharing additional resources and creating further tools to help support you as and when we get them. We hope that you will share your good practice and collaborative working locally, and within your Diocese, so that a whole network of support builds.
-
-Please provide feedback on ways to improve this at [environment@scotland.anglican.org](mailto:environment@scotland.anglican.org)
-
-~~~
-NOTE: This toolkit is still in the early stages of development,
-but it gives you a sense of what it will contain and the direction we are heading.
-~~~
--->
-<!-- JC rewrite -->
+Jump to the 'Toolkit Structure' menu item to understand how all the parts fit together or go directly to a PETALS menu item if you're eager to start some action!
 
 <div class="callout-left full">
 
