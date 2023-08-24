@@ -2,7 +2,7 @@
 title: Reading a Card
 layout: plain
 nav_order: 5.1
-parent: How to use the Cards
+parent: Using the Net Zero Cards
 --- 
 
 Each of our Net Zero Cards describes an action your congregation could take and is marked with a number of features to help guide you through the game.  
@@ -10,9 +10,7 @@ Each of our Net Zero Cards describes an action your congregation could take and 
 The front of the card has the action title with a unique icon for that card, and also shows the "petal" category for the card as given in the Net Zero Toolkit.  There's a good order for considering the cards that relate to buildings, so for these we also have a step number at the bottom, from 1 to 6. 
 
 
-<img src='{{ "graphics/annotated-card-front.jpg" | relative_url }}' alt="the front of a net zero card showing that the title is in the centre with a unique icon for that card, the petal category shown at the top, and the step number shown at at bottom" title="annotated card front" width="750px"/>
-
-<img src='{{ "graphics/annotated-card-back.jpg" | relative_url }}' alt="the back of a net zero card showing that the relative cost at top left, the carbon savings at top right, the card title and icon, a 100 word summary of the card action, and a brief motivating quote" width="1000"/>
+<img src='{{ "graphics/Reading-NetZeroCards.jpg" | relative_url }}' alt="An Online Net Zero Card showing that the title is in the centre with a unique icon for that card and the step number shown at at bottom" title="annotated card front" width="750px"/>
 
 The back of the card adds a 100 word summary of the card action with a brief motivating quote, and then shows two further things:  the relative cost and the potential carbon savings.
 
