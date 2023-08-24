@@ -9,7 +9,7 @@ There are two editions of the Net Zero Cards.
  -	The online edition version found here, which are embedded into the various ‘Petals’ and Tasks of this Net Zero Toolkit.
  -	A physical pack of 50+ cards which can be ordered through the General Synod Office of the Scottish Episcopal Church.
 
-<img alt-text=' ' src='{{"/graphics/NetZeroCards-physical.jpg" | relative_url}}'  alt="Physical Pack of the Net Zero Cards" width="1000px">
+<img alt-text=' ' src='{{"/graphics/NetZeroCards-physical.jpg" | relative_url}}'  alt="Physical Pack of the Net Zero Cards" width="500px">
 
 When using the physical cards, they are best explored in groups of six to eight people. We suggest you spread the cards on the table and go around the room, allowing people to choose a card in turn and placing them into three areas:
 
