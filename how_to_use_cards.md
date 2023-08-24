@@ -6,7 +6,7 @@ has_children: true
 ---
 
 There are two editions of the Net Zero Cards.
- -	The online edition version found here, which are embedded into the various ‘Petals’ and Tasks of this Net Zero Toolkit.
+ -	The online edition version embedded into the various ‘Petals’ and Tasks of this Net Zero Toolkit.
  -	A physical pack of 50+ cards which can be ordered through the General Synod Office of the Scottish Episcopal Church.
 
 <img alt-text=' ' src='{{"/graphics/NetZeroCards-physical.jpg" | relative_url}}'  alt="Physical Pack of the Net Zero Cards" width="500px">
@@ -21,4 +21,4 @@ Leave time at the end of your session together to think about what happens next.
 
 Some groups prefer to record audio snippets with what they’ve agreed about each card and have someone fill out the planning template afterwards.
 
-The Net Zero Workshops provide a facilitated process which you support you through this process.
+The Net Zero Workshops provide a facilitated process which can support you through this process.
