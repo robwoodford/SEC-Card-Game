@@ -1,6 +1,6 @@
 ---
 layout: card_set
-title: The Online Cards
+title: Online Cards Edition
 nav_order: 5.2
 parent: Using the Net Zero Cards
 ---
