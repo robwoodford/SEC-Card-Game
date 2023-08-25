@@ -7,7 +7,7 @@ parent: Using the Net Zero Cards
 
 You will soon be able to order a physical pack of the Net Zero Cards from the General Synod Office. Ensure you join the Inspires Online newsletter to get information as to when these are available.
 
-## Using the physical Cards
+## Using the Physical Cards
 When using the physical cards, they are best explored in groups of six to eight people. We suggest you spread the cards on the table and go around the room, allowing people to choose a card in turn and placing them into three areas:
 
 1. Actions we should definitely take
