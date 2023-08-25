@@ -1,6 +1,6 @@
 ---
 title: Finding your way
-layout: default
+layout: plain
 parent: Toolkit Structure
 nav_order: 3.5
 ---
