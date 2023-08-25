@@ -9,6 +9,8 @@ Each "task" has a number of cards that have specific actions congregations can t
 
 You can use the printed card pack to play a game to do your planning.  This works better and is more fun than having a meeting.   
 
+The cards currently cover actions to do with energy use in your buildings.
+
 
 <!-- Don't need this if RW keeps what I wrote about why cards for energy in buildings, on toolkit.md 
 
