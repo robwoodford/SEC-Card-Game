@@ -26,7 +26,7 @@ The Church in Society Committee worked with commitment and diligence to develop 
 
 As a result of this programme of actions the Provincial Environment Group was formed in late 2021 to advise the Standing Committee of the Scottish Episcopal Church on how to move forward.
 
-The Net Zero Action Plan 2023-2030 has been developed in consultation across the Province. During the extensive [consultation process](https://www.scotland.anglican.org/who-we-are/organisation/boards-and-committees/the-provincial-environment-group/net-zero-action-plan-2023-2030-consultation-overview/) it became apparent that updating and aligning the existing Toolkit would be of great benefit to many charges.
+The [Net Zero Action Plan (2023-2030)](https://www.scotland.anglican.org/wp-content/uploads/NZAP-For-GS-2023-Final.pdf) has been developed in consultation across the Province. During the extensive [consultation process](https://www.scotland.anglican.org/who-we-are/organisation/boards-and-committees/the-provincial-environment-group/net-zero-action-plan-2023-2030-consultation-overview/) it became apparent that updating and aligning the existing Toolkit would be of great benefit to many charges.
 
 The changes required encompass almost all aspects of our church: not only our buildings where we use the energy created from the burning of fossil fuels, but in every area of our life, work and worship.
 
