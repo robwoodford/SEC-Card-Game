@@ -18,4 +18,4 @@ In particular it will help you review:
 
 The intention is to pilot this workshop programme in 2023, rolling out the programme more broadly during 2024.
 
-[Register your interest](https://docs.google.com/forms/d/e/1FAIpQLSe51A8c_Y47y1CXIcpCknQKa1GW30bqTQAHpQ17o_8mdZeuZw/viewform?embedded=true)
+[Register your interest for a Net Zero Workshop](https://docs.google.com/forms/d/e/1FAIpQLSf6lHp9zuZOWyoj9psykHUSGUCnRtneBU9ns39AED4VkbanrA/viewform)
