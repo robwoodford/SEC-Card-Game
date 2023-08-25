@@ -6,12 +6,14 @@ has_children: true
 ---
 
 There are two editions of the Net Zero Cards.
- -	The online edition version embedded into the various ‘Petals’ and Tasks of this Net Zero Toolkit.
- -	A physical pack of 50+ cards which can be ordered through the General Synod Office of the Scottish Episcopal Church.
+ -	The Online Cards Edition, embedded into the various ‘Petals’ and Tasks of this Net Zero Toolkit.
+ -	The Physical Cards Edition, a pack of 50+ cards which can be ordered through the General Synod Office of the Scottish Episcopal Church.
 
 <img alt-text=' ' src='{{"/graphics/NetZeroCards-physical.jpg" | relative_url}}'  alt="Physical Pack of the Net Zero Cards" width="500px">
 
 At present, these Net Zero Cards focus on the priority areas identified in the [Net Zero Action Plan (2023-2030)](https://www.scotland.anglican.org/wp-content/uploads/NZAP-For-GS-2023-Final.pdf) - namely Energy Efficiency Improvements, Clean Energy and Positive Finances. Over time, we expect the cards to expand to other Petal areas.
+
+These cards were designed by a property volunteer in one of our churches based on her experiences in about twenty churches and halls.  The first set of cards have already been used by around 25 churches and community centres around the UK.  They tell us using them is fun and makes planning for the future much easier.
 
 When using the physical cards, they are best explored in groups of six to eight people. We suggest you spread the cards on the table and go around the room, allowing people to choose a card in turn and placing them into three areas:
 
