@@ -2,7 +2,7 @@
 title: Reading a Card
 layout: plain
 nav_order: 5.1
-parent: Using the Net Zero Cards
+parent: Online Cards Edition
 --- 
 
 Each of our Net Zero Cards describes an action your congregation could take and is marked with a number of features to help guide you.  
