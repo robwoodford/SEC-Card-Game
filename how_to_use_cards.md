@@ -11,6 +11,8 @@ There are two editions of the Net Zero Cards.
 
 <img alt-text=' ' src='{{"/graphics/NetZeroCards-physical.jpg" | relative_url}}'  alt="Physical Pack of the Net Zero Cards" width="500px">
 
+At present, these Net Zero Cards focus on the priority areas identified in the Net Zero Action Plan (2023-2030) - namely Energy Efficiency Improvements, Clean Energy and Positive Finances. Over time, we expect the cards to expand to other Petal areas.
+
 When using the physical cards, they are best explored in groups of six to eight people. We suggest you spread the cards on the table and go around the room, allowing people to choose a card in turn and placing them into three areas:
 
 1. Actions we should definitely take
