@@ -8,7 +8,7 @@ has_children: true
 # Welcome to the Net Zero Toolkit
 Thank you for your interest in our Net Zero Toolkit and the associated Net Zero Cards.
 
-These resources have been designed to complement the Scottish Episcopal Church [Net Zero Action Plan (2023-2030)](https://www.scotland.anglican.org/wp-content/uploads/NZAP-For-GS-2023-Final.pdf) released in June 2023.
+These resources have been designed to complement the Scottish Episcopal Church [Net Zero Action Plan (2023-2030)](https://www.scotland.anglican.org/wp-content/uploads/NZAP-For-GS-2023-Final.pdf) approved by General Synod in June 2023.
 
 This updated version of the toolkit aims to:
 -  Provide an overview of Net Zero, how the Scottish Episcopal Church has defined this, and the values that have guided the approach.
