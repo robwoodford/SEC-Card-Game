@@ -11,6 +11,6 @@ This will allow you and your group to easily view and organise the Tasks, priori
 
 <img src='{{ "graphics/Toolkit-preview.jpg" | relative_url }}' alt="Screenshots from the Net Zero Toolkit Checklist" title="Checklist"  align="center" width="1000px"/>
 
-[Download the Net Zero Toolkit - Tasks Checklist](https://drive.google.com/file/d/17Bx4ZEfpsb-qC0lxoiVfmRu8eDFPneKP/view?usp=sharing).
+[Download the Toolkit Task Checklist](https://drive.google.com/file/d/17Bx4ZEfpsb-qC0lxoiVfmRu8eDFPneKP/view?usp=sharing)
 
 The checklist also provides a summary of the Desired Outcomes outlined in the Net Zero Action Plan (2023-2030), helping us all to see how our actions can contribute to the objectives laid out in the provincial plan.
