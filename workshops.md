@@ -7,15 +7,16 @@ has_children: false
 
 Taking the required steps, in the right order and prioritising all the various actions is complex and no one size fits all.
 
-With this in mind, we intend to pilot a new Net Zero workshop programme that can be organised with charges in conjunction with our partner Heathack.
+We are piloting Net Zero Workshops from September 2023. The workshops will take around 6 hours in total and are for groups of 6-10 people from a congregation and its local community and give a clear structure for making plans that will save money, reduce energy use, and take practical steps towards net zero.   
 
-These workshops will delve into the first two objectives of the Net Zero Action Plan (Energy Efficiency Improvements and Clean Energy) in order to help you save money and provide a plan of action to work towards Net Zero 2030.
+- [Register your interest for a Net Zero Workshop](https://docs.google.com/forms/d/e/1FAIpQLSf6lHp9zuZOWyoj9psykHUSGUCnRtneBU9ns39AED4VkbanrA/viewform)
 
-In particular it will help you review:
-- Actions you should definitely take
-- Actions that aren't for you - because you've taken them or they don't suit your building or how you intend to use it in future
-- Actions you are unsure about
+ The workshops are based on a programme from HeatHack that is already successfully helping community groups with their energy use.  The programme was written by an SEC member based on her experiences in our buildings.  If you are ready to sign up now, you can join their programme and take advantage of their Royal Academy of Engineering funding to get a free temperature and relative humidity monitor and minor expenses paid.  Just make sure HeatHack knows you are from the SEC.    
 
-The intention is to pilot this workshop programme in 2023, rolling out the programme more broadly during 2024.
+- [HeatHack's existing programme](https://jeancarletta.github.io/HeatHack-Sessions)
+- [Apply direct to HeatHack](https://docs.google.com/forms/d/e/1FAIpQLSe51A8c_Y47y1CXIcpCknQKa1GW30bqTQAHpQ17o_8mdZeuZw/viewform)
+- [HeatHack website](https://heathack.org/)
 
-[Register your interest for a Net Zero Workshop](https://docs.google.com/forms/d/e/1FAIpQLSf6lHp9zuZOWyoj9psykHUSGUCnRtneBU9ns39AED4VkbanrA/viewform)
+
+
+
