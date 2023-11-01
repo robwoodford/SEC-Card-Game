@@ -13,7 +13,8 @@ Our Net Zero Cards describe actions you can take that will reduce your energy us
 
  -->
 
-You can order a pack of cards from the General Synod Office of the Scottish Episcopal Church.
+
+You can order a pack of cards from your local Diocesan Office, and we would encourage you to return the cards once you are finished so other Churches can use them. Please contact the General Synod Office of the Scottish Episcopal Church if you have any problems getting hold of a deck.
 
 <!-- :TODO: how?? Put the contact details -->
 
