@@ -2,7 +2,7 @@
 A version of the HeatHack card game for the Scottish Episcopal Church; written in Jekyll with the Just the Docs template and relying on Liquid to render
 many of the pages.
 
-Done in a hurry to generate most of the website from CSV files so it's a mess :TODO: rationalise to be easy to update.
+Done in a hurry to generate most of the website from CSV files so it's a mess.  It doesn't matter as they will need to port it into some web framework non-techy people can manage to update - the spreadsheet generation was an early requirement that they think they no longer have.
 
 # Collections
 
